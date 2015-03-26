@@ -24,18 +24,22 @@ $(document).ready(function(){
 	});
 
 	var t,imgT;
-	function ImgCircle(i){
-		if (i>4) {return ImgCircle(0)};
-		var LeftStep=-i*600;
+	var Temp;
+	function ImgCircle(s,e){
+		clearTimeout(Temp);
+		if (e>4) {return ImgCircle(s,0)};
+		var LeftStep=-e*600;
 		$("#img").stop().animate({left:LeftStep+"px"},1000);
-		i++;
-		imgT=i;
-		t=setTimeout(function(){ImgCircle(imgT)},5000)
-	}
-	ImgCircle(0);
+		$("#ban li:eq("+s+")").removeClass("cur");
+		$("#ban li:eq("+e+")").addClass("cur");
+		imgT=e;		
+		e++;
+		t=setTimeout(function(){ImgCircle(imgT,e)},5000)
+	};
+	ImgCircle(0,0);
 	$("#ban li").each(function(i){
-		$(this).click(function(){clearTimeout(t);$("#img").stop().animate({left:-i*600+"px"},1000);imgT=i});
+		$(this).click(function(){clearTimeout(t);ImgCircle(imgT,i);clearTimeout(t);});
 	});
 	$("#ban").mouseenter(function(){clearTimeout(t)});
-	$("#ban").mouseleave(function(){ImgCircle(imgT)});
+	$("#ban").mouseleave(function(){Temp=setTimeout(function(){ImgCircle(imgT,imgT+1)},3000)});
 })
