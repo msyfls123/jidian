@@ -2,6 +2,7 @@
 #header{width: 100%;height: 24px;background-color: #36404d;text-align: right;color: white;padding: 4px 20px 0 0;position: fixed;}
 #header span:hover{color:#f8c255;}
 .content{width: 960px;margin: 0 auto;}
+h2{font-size: 19px;font-weight: 700;font-family: Microsoft Yahei;letter-spacing: 1px;}
 /*右侧搜索框*/
 form{display: inline-block;}
 input[type=search] {-webkit-appearance: textfield;-webkit-box-sizing: content-box;font-family: inherit;font-size: 100%;}
@@ -30,7 +31,7 @@ border-color: #6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-s
 /*导航栏*/
 #con{}
 #guide{width:960px;height:48px;background-color:#f3f3f3;box-shadow: 0 2px 10px 1px #ddd;margin-top: 12px;position: relative;}
-#guide li{width: 92px;height:31px;display: inline-block;text-align:center;padding:14px 0 0 0;font-size: 17px;color: #242a31;letter-spacing: -1px;font-weight:600;}
+#guide li{width: 92px;height:31px;display: inline-block;text-align:center;padding:14px 0 0 0;font-size: 17px;color: #242a31;letter-spacing: -1px;font-weight:500;}
 #guide li:hover{color: #fda900}
 #fly{width: 92px;height: 3px;background-color: #f8c255;position: absolute;}
 #dropdown{position: absolute;z-index:1000;}
@@ -38,8 +39,8 @@ border-color: #6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-s
 .menu ul{width: 82px;padding: 10 0 10 10px;background: #fff;margin: 0 auto;font-size: 15px;display: none;}
 .menu li:hover{color: #fda900;cursor: pointer;}
 /*Banner*/
-#info{margin: 20px auto;width: 100%;height: 300px;background: #ddd;}
-#ban{width: 600px;height: 300px;background: #fff;overflow: hidden;position: relative;z-index: 10;}
+#info{margin: 20px auto;width: 100%;height: 300px;background:#435a7b;}
+#ban{width: 600px;height: 300px;background: #fff;overflow: hidden;position: relative;display:inline-block;z-index: 10;margin:0;}
 #img{width:3000px;height: 300px;position: absolute;left: 0px;}
 #ban ul{position: absolute;top: 250px;left: 50%;width: 140px;margin-left: -70px;text-align: center;}
 #ban li{display: inline-block;width: 10px;height: 10px;border-radius: 50%;border:2px solid #fff;margin: 5px;
@@ -48,3 +49,13 @@ border-color: #6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-s
   			transition: all .5s;}
 #ban li:hover{background-color: #fff;cursor: pointer;}
 #ban li.cur{background-color: #fff;cursor: pointer;}
+/*学院新闻*/
+#news{display: inline-block;vertical-align: top;padding: 15px 0 0 0;margin:0;position: relative;}
+#news h2{color: #fff;text-indent: 18px;}
+.newsbox{display: inline-block;position: relative;width: 300px;height: 250px;top: 15px;}
+.newsbox li{width: 100%;height: 25px;text-indent:18px;color: #fff;padding:10px 0 0 0;font-size: 16px;font-family: Microsoft Yahei;letter-spacing: 1px;z-index: 500;display: inline-block;			
+			-webkit-transition: all .5s;
+  			-moz-transition: all .5s;
+  			transition: all .5s;}
+.newsbox li:hover{color: #f6c35e;cursor: pointer;}
+#slide{width: 354px;height: 35px;background: #14324b;position: absolute;top: 60px;border-left: 2px solid #3dbdae;opacity: 0.8;}
