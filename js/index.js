@@ -13,16 +13,15 @@ $(document).ready(function(){
 				};
 			};
 		});
-		$(this).mouseleave(function(idx){
-			$(".menu").mouseleave(function(){				
-				$(".menu ul:eq("+i+")").stop().slideUp(500);
-				menuArray[idx]=0;
+		$(this).mouseleave(function(){
+			$(".menu").mouseleave(function(){			
+				$(".menu ul:eq("+i+")").stop().slideUp(500,function(){menuArray[i]=0;});
 			});
 		});
 	});
 	$("#guide").mouseleave(function(){
 		$(".menu").mouseleave(function(){
-		$("#fly").stop().animate({left:"0px"},500)
+			$("#fly").stop().animate({left:"0px"},500)
 		})
 	})
 })
