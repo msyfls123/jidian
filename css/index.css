@@ -39,7 +39,7 @@ border-color: #6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-s
 /*Banner*/
 #info{margin: 20px auto;width: 100%;height: 300px;background: #ddd;}
 #ban{width: 600px;height: 300px;background: #fff;overflow: hidden;position: relative;z-index: 10;}
-#img{width:3000px;height: 300px;position: absolute;left: -600px;}
+#img{width:3000px;height: 300px;position: absolute;left: 0px;}
 #ban ul{position: absolute;top: 250px;left: 50%;width: 140px;margin-left: -70px;text-align: center;}
 #ban li{display: inline-block;width: 10px;height: 10px;border-radius: 50%;border:2px solid #fff;margin: 5px;
 			-webkit-transition: all .5s;

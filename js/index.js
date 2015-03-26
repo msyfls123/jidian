@@ -23,5 +23,19 @@ $(document).ready(function(){
 		});
 	});
 
-
+	var t,imgT;
+	function ImgCircle(i){
+		if (i>4) {return ImgCircle(0)};
+		var LeftStep=-i*600;
+		$("#img").stop().animate({left:LeftStep+"px"},1000);
+		i++;
+		imgT=i;
+		t=setTimeout(function(){ImgCircle(imgT)},5000)
+	}
+	ImgCircle(0);
+	$("#ban li").each(function(i){
+		$(this).click(function(){clearTimeout(t);$("#img").stop().animate({left:-i*600+"px"},1000);imgT=i});
+	});
+	$("#ban").mouseenter(function(){clearTimeout(t)});
+	$("#ban").mouseleave(function(){ImgCircle(imgT)});
 })
