@@ -45,13 +45,13 @@ $(document).ready(function(){
 	ImgCircle(0,0);
 	/*新闻栏*/
 	$(".newsbox:eq(0) li").each(function(i){
-		var dis=60+35*i;
+		var dis=50+35*i;
 		$(this).mouseenter(function(){
 			$("#slide").stop().animate({top:dis+"px"},500);
 		})
 	})
 	$(".newsbox:eq(0) ul").mouseleave(function(){
-			$("#slide").stop().animate({top:"60px"},500);
+			$("#slide").stop().animate({top:"50px"},500);
 	})
 	/**/
 	$(".right div.name").each(function(i){
