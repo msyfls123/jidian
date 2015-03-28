@@ -1,4 +1,5 @@
 var menuArray=new Array(0,0,0,0,0,0,0,0,0,0);
+var curName=0;
 $(document).ready(function(){
 	$("#guide li").each(function(i){
 		var step=i*96;
@@ -51,5 +52,15 @@ $(document).ready(function(){
 	})
 	$(".newsbox:eq(0) ul").mouseleave(function(){
 			$("#slide").stop().animate({top:"60px"},500);
+	})
+	/**/
+	$(".right div.name").each(function(i){
+		$(this).hover(function(){
+			if (i!=curName) {
+				$(this).removeClass("unpick");
+				$(".right div.name:eq("+curName+")").addClass("unpick");
+				curName=i;
+			};
+		})
 	})
 })
