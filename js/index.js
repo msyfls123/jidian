@@ -58,6 +58,7 @@ $(document).ready(function(){
 		$(this).hover(function(){
 			if (i!=curName) {
 				$(this).removeClass("unpick");
+				$(".tab").stop().animate({left:-344*i+"px"},500);
 				$(".right div.name:eq("+curName+")").addClass("unpick");
 				curName=i;
 			};
