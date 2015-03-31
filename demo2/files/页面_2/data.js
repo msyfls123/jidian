@@ -1,0 +1,1306 @@
+﻿$axure.loadCurrentPage({
+  "url":"页面_2.html",
+  "generationDate":new Date(1389334354051.6),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kong",
+"denglu1",
+"denglu2",
+"kong2",
+"zc1",
+"zc2",
+"zc3",
+"kong3",
+"yi",
+"jiache"],
+  "page":{
+    "packageId":"bba59bdafb504b05a6406211b4c50469",
+    "type":"Axure:Page",
+    "name":"页面 2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"方正细等线_GBK",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"ba6cabf03b804a58a39557364057b7de",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF2F2F2},
+            "size":{
+              "width":640,
+              "height":1136},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"06d5ca597d134e45a8615113f48bcca7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF2F2F2},
+                "size":{
+                  "width":640,
+                  "height":1136},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u0.png"}},
+{
+          "id":"ce572f93743b406bb1061e471eda74e5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":36,
+              "y":44},
+            "size":{
+              "width":24,
+              "height":46}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f10de53610a74114b65c7b5075d28781",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":36,
+                  "y":44},
+                "size":{
+                  "width":24,
+                  "height":46}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 主页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/页面_1/u2.png"}},
+{
+          "id":"70836f7225724ad89585c5facfe77fb2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"40px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":271,
+              "y":44},
+            "size":{
+              "width":102,
+              "height":45}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dee856c23b0c495294b6903860ff8419",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontSize":"40px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":271,
+                  "y":44},
+                "size":{
+                  "width":102,
+                  "height":45}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ae3b105889364239b06bd5c071d6f884",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":23,
+              "y":150},
+            "size":{
+              "width":594,
+              "height":280},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"16",
+            "outerShadow":{
+              "on":true,
+              "offsetX":2,
+              "offsetY":2,
+              "blurRadius":15,
+              "color":{
+                "r":0,
+                "g":0,
+                "b":0,
+                "a":0.349019607843137}}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dd64efc83f9942d2b7c32cf246406471",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":23,
+                  "y":150},
+                "size":{
+                  "width":594,
+                  "height":280},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"16",
+                "outerShadow":{
+                  "on":true,
+                  "offsetX":2,
+                  "offsetY":2,
+                  "blurRadius":15,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.349019607843137}}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u6.png"}},
+{
+          "id":"c17538905d914d0f84a56e46a6dca974",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":36,
+              "y":169},
+            "size":{
+              "width":104,
+              "height":53},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4aac5f9119c74dc8ab4983de00fb7d1c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":36,
+                  "y":169},
+                "size":{
+                  "width":104,
+                  "height":53},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_2/u8.png"}},
+{
+          "id":"4f983205722d461d8e21b8232cee951f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":36,
+              "y":235},
+            "size":{
+              "width":104,
+              "height":53},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ff4c10d4d3624f00ae57525336ecd5db",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":36,
+                  "y":235},
+                "size":{
+                  "width":104,
+                  "height":53},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_2/u10.png"}},
+{
+          "id":"d16a80688fdf4567a8570c4a817d5448",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":36,
+              "y":298},
+            "size":{
+              "width":104,
+              "height":60},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"00bd18f373724ca880b61e762d6c49b0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":36,
+                  "y":298},
+                "size":{
+                  "width":104,
+                  "height":60},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_2/u12.png"}},
+{
+          "id":"8e5b711756574d518879d6990bf2d036",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"28px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":150,
+              "y":170},
+            "size":{
+              "width":450,
+              "height":52}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = 值于 kong2",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"kong2"}]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1<br> (If 文字于 This ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 kong2 = 文字于 This, 且<br> 值于 zc1 = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong2"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":true,
+                                    "isFocused":false,
+                                    "isTarget":false}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc1"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = &quot;邮箱地址&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"邮箱地址",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 zc1 = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc1"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 kong2 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 3<br> (If 值于 zc1 ≠ &quot;1&quot; 或 值于 zc2 ≠ &quot;1&quot; 或 值于 zc3 ≠ &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"禁用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":false}}]}]},
+{
+                  "description":"用例 4<br> (If 值于 zc1 = &quot;1&quot; 和 值于 zc2 = &quot;1&quot; 和 值于 zc3 = &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"&&",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"启用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":true}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"6aa1fad1f60f41cca6db3327ee7c369a",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"28px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":150,
+              "y":236},
+            "size":{
+              "width":450,
+              "height":52}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = 值于 kong3",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"kong3"}]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1<br> (If 文字于 This ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 zc2 = &quot;1&quot;, 且<br> 值于 kong3 = 文字于 This",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong3"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":true,
+                                    "isFocused":false,
+                                    "isTarget":false}]}]}]}}]},
+{
+                  "description":"<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = &quot;用户名&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"用户名",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 zc2 = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 kong3 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong3"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 3<br> (If 值于 zc1 ≠ &quot;1&quot; 或 值于 zc2 ≠ &quot;1&quot; 或 值于 zc3 ≠ &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"禁用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":false}}]}]},
+{
+                  "description":"用例 4<br> (If 值于 zc1 = &quot;1&quot; 和 值于 zc2 = &quot;1&quot; 和 值于 zc3 = &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"&&",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"启用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":true}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"20bef6e9187c45c3b0b8d2a156daaa78",
+          "label":"enter2",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "stateStyles":{
+              "disabled":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "opacity":"0.3"}},
+            "location":{
+              "x":419,
+              "y":362},
+            "size":{
+              "width":181,
+              "height":61}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5f7451d4f68e4a85a1bae8a9fdf77945",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "stateStyles":{
+                  "disabled":{
+                    "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                    "fontWeight":"400",
+                    "fontStyle":"normal",
+                    "opacity":"0.3"}},
+                "location":{
+                  "x":419,
+                  "y":362},
+                "size":{
+                  "width":181,
+                  "height":61}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 主页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/页面_2/enter2_u16.png",
+            "disabled~":"images/页面_2/enter2_u16.png"}},
+{
+          "id":"594914e04cc54a3796919faf8fbe0448",
+          "label":"mm2",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"28px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":154,
+              "y":313},
+            "size":{
+              "width":57,
+              "height":32},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF666666}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cf3bc07050734d8e861a6aaa860ead1e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontSize":"28px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF666666,
+                  "opacity":1},
+                "location":{
+                  "x":154,
+                  "y":313},
+                "size":{
+                  "width":57,
+                  "height":32},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF666666}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"9e821fdc59fc40f8956ca89bfc847d63",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"28px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":150,
+              "y":301},
+            "size":{
+              "width":450,
+              "height":52}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 mm2 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cf3bc07050734d8e861a6aaa860ead1e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1<br> (If 文字于 This ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 zc3 = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc3"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 zc3 = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"zc3"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 文字于 mm2 = &quot;密码&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["cf3bc07050734d8e861a6aaa860ead1e"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"密码",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]},
+{
+                  "description":"用例 3<br> (If 值于 zc1 ≠ &quot;1&quot; 或 值于 zc2 ≠ &quot;1&quot; 或 值于 zc3 ≠ &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"||",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"!=",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"禁用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":false}}]}]},
+{
+                  "description":"用例 4<br> (If 值于 zc1 = &quot;1&quot; 和 值于 zc2 = &quot;1&quot; 和 值于 zc3 = &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"zc1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"&&",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc2"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"zc3"}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"1",
+                          "stos":[]}}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"启用 enter2",
+                      "pathToInfo":[{
+                          "objectPath":["20bef6e9187c45c3b0b8d2a156daaa78"],
+                          "enableDisableInfo":{
+                            "enable":true}}]}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ba6cabf03b804a58a39557364057b7de":{
+      "scriptId":"u0"},
+    "06d5ca597d134e45a8615113f48bcca7":{
+      "scriptId":"u1"},
+    "ce572f93743b406bb1061e471eda74e5":{
+      "scriptId":"u2"},
+    "f10de53610a74114b65c7b5075d28781":{
+      "scriptId":"u3"},
+    "70836f7225724ad89585c5facfe77fb2":{
+      "scriptId":"u4"},
+    "dee856c23b0c495294b6903860ff8419":{
+      "scriptId":"u5"},
+    "ae3b105889364239b06bd5c071d6f884":{
+      "scriptId":"u6"},
+    "dd64efc83f9942d2b7c32cf246406471":{
+      "scriptId":"u7"},
+    "c17538905d914d0f84a56e46a6dca974":{
+      "scriptId":"u8"},
+    "4aac5f9119c74dc8ab4983de00fb7d1c":{
+      "scriptId":"u9"},
+    "4f983205722d461d8e21b8232cee951f":{
+      "scriptId":"u10"},
+    "ff4c10d4d3624f00ae57525336ecd5db":{
+      "scriptId":"u11"},
+    "d16a80688fdf4567a8570c4a817d5448":{
+      "scriptId":"u12"},
+    "00bd18f373724ca880b61e762d6c49b0":{
+      "scriptId":"u13"},
+    "8e5b711756574d518879d6990bf2d036":{
+      "scriptId":"u14"},
+    "6aa1fad1f60f41cca6db3327ee7c369a":{
+      "scriptId":"u15"},
+    "20bef6e9187c45c3b0b8d2a156daaa78":{
+      "scriptId":"u16"},
+    "5f7451d4f68e4a85a1bae8a9fdf77945":{
+      "scriptId":"u17"},
+    "594914e04cc54a3796919faf8fbe0448":{
+      "scriptId":"u18"},
+    "cf3bc07050734d8e861a6aaa860ead1e":{
+      "scriptId":"u19"},
+    "9e821fdc59fc40f8956ca89bfc847d63":{
+      "scriptId":"u20"}}});

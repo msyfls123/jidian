@@ -1,0 +1,256 @@
+﻿$axure.loadCurrentPage({
+  "url":"page_1.html",
+  "generationDate":new Date(1402071733067.96),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kaiguan1",
+"kaiguan2",
+"hua"],
+  "page":{
+    "packageId":"79bf4cf2a0ea45e4ac302770a6e3fd93",
+    "type":"Axure:Page",
+    "name":"Page 1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setPanelState",
+                "description":"设置 (动态面板) 到 Next 自动循环",
+                "panelsToStates":[{
+                    "panelPath":["fec8d112d0ff460e87900478b067cae7"],
+                    "stateInfo":{
+                      "setStateType":"next",
+                      "stateNumber":1,
+                      "stateValue":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]},
+                      "loop":true,
+                      "showWhenSet":false,
+                      "options":{
+                        "compress":false}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"be424e47e5074cde9310beeb7ba4c694",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'黑体-简 细体', '黑体-简'",
+            "fontSize":"48px",
+            "fontWeight":"300",
+            "location":{
+              "x":544,
+              "y":173},
+            "size":{
+              "width":201,
+              "height":56}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"45b0534c358e4524830f402e72f1987d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'黑体-简 细体', '黑体-简'",
+                "fontSize":"48px",
+                "fontWeight":"300",
+                "location":{
+                  "x":544,
+                  "y":173},
+                "size":{
+                  "width":201,
+                  "height":56}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fec8d112d0ff460e87900478b067cae7",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1280,
+              "height":721}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onPanelStateChange":{
+              "description":"OnPanelStateChange",
+              "cases":[{
+                  "description":"用例 1<br> (If &quot;[[LVAR1.height]]&quot; &gt; &quot;1&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":">",
+                    "leftExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"[[LVAR1.height]]",
+                      "localVariables":{
+                        "lvar1":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidget",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":true,
+                              "isFocused":false,
+                              "isTarget":false}]}},
+                      "stos":[{
+                          "computedType":"int",
+                          "sto":"propCall",
+                          "thisSTO":{
+                            "sto":"var",
+                            "name":"lvar1"},
+                          "prop":"height"}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"1",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setWidgetSize",
+                      "description":"设置动态面板大小 当前部件&nbsp; 为 1280 x [[LVAR1.height-72]] 线性 20毫秒",
+                      "objectsToResize":[{
+                          "objectPath":["fec8d112d0ff460e87900478b067cae7"],
+                          "sizeInfo":{
+                            "width":{
+                              "exprType":"stringLiteral",
+                              "value":"1280",
+                              "stos":[]},
+                            "height":{
+                              "exprType":"stringLiteral",
+                              "value":"[[LVAR1.height-72]]",
+                              "localVariables":{
+                                "lvar1":{
+                                  "exprType":"fcall",
+                                  "functionName":"GetWidget",
+                                  "arguments":[{
+                                      "exprType":"pathLiteral",
+                                      "isThis":true,
+                                      "isFocused":false,
+                                      "isTarget":false}]}},
+                              "stos":[{
+                                  "computedType":"int",
+                                  "sto":"binOp",
+                                  "op":"-",
+                                  "leftSTO":{
+                                    "computedType":"int",
+                                    "sto":"propCall",
+                                    "thisSTO":{
+                                      "sto":"var",
+                                      "name":"lvar1"},
+                                    "prop":"height"},
+                                  "rightSTO":{
+                                    "computedType":"int",
+                                    "sto":"literal",
+                                    "value":72}}]},
+                            "easing":"linear",
+                            "duration":20}}]},
+{
+                      "action":"moveWidget",
+                      "description":"移动 当前部件 相对位置为 (0,36) 线性 20ms",
+                      "objectsToMoves":[{
+                          "objectPath":["fec8d112d0ff460e87900478b067cae7"],
+                          "moveInfo":{
+                            "moveType":"delta",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"36",
+                              "stos":[]},
+                            "options":{
+                              "easing":"linear",
+                              "duration":20}}}]},
+{
+                      "action":"wait",
+                      "description":"等待20毫秒",
+                      "waitTime":20},
+{
+                      "action":"setPanelState",
+                      "description":"设置 当前部件 到 Next 自动循环",
+                      "panelsToStates":[{
+                          "panelPath":["fec8d112d0ff460e87900478b067cae7"],
+                          "stateInfo":{
+                            "setStateType":"next",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":true,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"e1219a9daf9840999d7cfd7487aa1aa0",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"cover"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"f885bbeff22547dfa2c19985baa90550",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"cover"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "be424e47e5074cde9310beeb7ba4c694":{
+      "scriptId":"u0"},
+    "45b0534c358e4524830f402e72f1987d":{
+      "scriptId":"u1"},
+    "fec8d112d0ff460e87900478b067cae7":{
+      "scriptId":"u2"}}});

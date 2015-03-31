@@ -1,0 +1,977 @@
+﻿$axure.loadCurrentPage({
+  "url":"页面_7.html",
+  "generationDate":new Date(1389334355215.67),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kong",
+"denglu1",
+"denglu2",
+"kong2",
+"zc1",
+"zc2",
+"zc3",
+"kong3",
+"yi",
+"jiache"],
+  "page":{
+    "packageId":"c73a1ce407a4413c938d6b1613ef930c",
+    "type":"Axure:Page",
+    "name":"页面 7",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Helvetica Neue LT Pro",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setPanelState",
+                "description":"设置 (动态面板) to 状态1 向右滑动 in 500ms",
+                "panelsToStates":[{
+                    "panelPath":["3ddcc43225b84073a674d4759b5ad4fd"],
+                    "stateInfo":{
+                      "setStateType":"diagram",
+                      "stateNumber":2,
+                      "stateValue":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]},
+                      "loop":false,
+                      "showWhenSet":false,
+                      "options":{
+                        "animateIn":{
+                          "easing":"slideRight",
+                          "duration":500},
+                        "compress":false}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"3ddcc43225b84073a674d4759b5ad4fd",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":640,
+              "height":1136}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"3e531b1549254dff97a643876d169ab6",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[]},
+{
+              "id":"c66dd72132834d41b6f2217e7d2839d6",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"b5ad2c21619848bc8b88e450607db0e9",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":130,
+                      "y":177},
+                    "size":{
+                      "width":480,
+                      "height":173},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":0,
+                      "offsetY":0,
+                      "blurRadius":10,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"01062137b5784d49b9fa8ff113e21a05",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":130,
+                          "y":177},
+                        "size":{
+                          "width":480,
+                          "height":173},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":0,
+                          "offsetY":0,
+                          "blurRadius":10,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u1.png"}},
+{
+                  "id":"c874a5bba06a4deda8ff32f56c6aa273",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontSize":"28px",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFAEAEAE,
+                      "opacity":1},
+                    "location":{
+                      "x":-60.0000038146973,
+                      "y":61},
+                    "size":{
+                      "width":200,
+                      "height":79},
+                    "linePattern":"none",
+                    "cornerRadiusTopLeft":"20",
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":0,
+                      "offsetY":0,
+                      "blurRadius":8,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d58f58249ea44d34b55f0e2d5e7ddc1b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontSize":"28px",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFAEAEAE,
+                          "opacity":1},
+                        "location":{
+                          "x":-60.0000038146973,
+                          "y":61},
+                        "size":{
+                          "width":200,
+                          "height":79},
+                        "linePattern":"none",
+                        "cornerRadiusTopLeft":"20",
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":0,
+                          "offsetY":0,
+                          "blurRadius":8,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u3.png"}},
+{
+                  "id":"8b79ac880c4d47fc89d39914a6f0c813",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontSize":"28px",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFAEAEAE,
+                      "opacity":1},
+                    "location":{
+                      "x":520,
+                      "y":61},
+                    "size":{
+                      "width":200,
+                      "height":79},
+                    "linePattern":"none",
+                    "cornerRadiusTopLeft":"20",
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":0,
+                      "offsetY":0,
+                      "blurRadius":8,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"93d447d698534cfbbf1e5401f29e217a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontSize":"28px",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFAEAEAE,
+                          "opacity":1},
+                        "location":{
+                          "x":520,
+                          "y":61},
+                        "size":{
+                          "width":200,
+                          "height":79},
+                        "linePattern":"none",
+                        "cornerRadiusTopLeft":"20",
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":0,
+                          "offsetY":0,
+                          "blurRadius":8,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 值于 jiache = &quot;1&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"jiache"},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]}]}]}},
+{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 页面 3",
+                              "target":{
+                                "targetType":"page",
+                                "url":"页面_3.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/页面_7/u3.png"}},
+{
+                  "id":"65891fb721d24774867bbc3e94db49e6",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":640,
+                      "y":30},
+                    "size":{
+                      "width":200,
+                      "height":170},
+                    "linePattern":"none"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"e221e2e0a3e74ff9857a0128c7da9817",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":640,
+                          "y":30},
+                        "size":{
+                          "width":200,
+                          "height":170},
+                        "linePattern":"none"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u7.png"}},
+{
+                  "id":"2f6fb0130d43426ab0a36823a34ffe62",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":30,
+                      "y":410},
+                    "size":{
+                      "width":580,
+                      "height":300},
+                    "linePattern":"none",
+                    "cornerRadiusTopLeft":"9",
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":1,
+                      "offsetY":1,
+                      "blurRadius":10,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"dd8864a5f2bf43e28d47b1028edf84f3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":30,
+                          "y":410},
+                        "size":{
+                          "width":580,
+                          "height":300},
+                        "linePattern":"none",
+                        "cornerRadiusTopLeft":"9",
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":1,
+                          "offsetY":1,
+                          "blurRadius":10,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u9.png"}},
+{
+                  "id":"7cf6a38b5cc2437f9843f69c26f572d7",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":50,
+                      "y":420},
+                    "size":{
+                      "width":104,
+                      "height":92},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"42e71d3faf74446a9ed57c9dd5fde759",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":50,
+                          "y":420},
+                        "size":{
+                          "width":104,
+                          "height":92},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_1/u8.png"}},
+{
+                  "id":"4af273ec51104e1f9301cd13456c9a01",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":54,
+                      "y":621},
+                    "size":{
+                      "width":99.9999923706055,
+                      "height":69},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"141050e3e33f4a208636b2dacd854378",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":54,
+                          "y":621},
+                        "size":{
+                          "width":99.9999923706055,
+                          "height":69},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u13.png"}},
+{
+                  "id":"7981387c3aa74406a5a44259e9d40014",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":54,
+                      "y":512},
+                    "size":{
+                      "width":526,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"resources/images/transparent.gif",
+                    "end~":"resources/images/transparent.gif",
+                    "line~":"images/页面_7/u15_line.png"}},
+{
+                  "id":"2ce07c2b888a483a9df3635a8e9d6ce3",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":54,
+                      "y":601},
+                    "size":{
+                      "width":526,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"resources/images/transparent.gif",
+                    "end~":"resources/images/transparent.gif",
+                    "line~":"images/页面_7/u15_line.png"}},
+{
+                  "id":"961b5659a4614f4da71c5a94df927b6a",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontSize":"36px",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":175,
+                      "y":448},
+                    "size":{
+                      "width":395,
+                      "height":62}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"8a9836c2ac014bfaa4bb1cbb199cd932",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontSize":"36px",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":175,
+                      "y":532},
+                    "size":{
+                      "width":395,
+                      "height":72}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"e98bb5a7da6d46988d6b39d7e6962309",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontSize":"36px",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":175,
+                      "y":628},
+                    "size":{
+                      "width":395,
+                      "height":72}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"a12f4bcce0f84289b5c2c64132a5e439",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":36,
+                      "y":537},
+                    "size":{
+                      "width":104,
+                      "height":53},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"288231c9983642068c5499a33d54526d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":36,
+                          "y":537},
+                        "size":{
+                          "width":104,
+                          "height":53},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_2/u8.png"}},
+{
+                  "id":"06ea5ebb851f4959a449f2e65368fdda",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":30,
+                      "y":770},
+                    "size":{
+                      "width":580,
+                      "height":100},
+                    "linePattern":"none",
+                    "cornerRadiusTopLeft":"9",
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":1,
+                      "offsetY":1,
+                      "blurRadius":10,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a8cc469a473f462e9fd85cdb5f66b6ad",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":30,
+                          "y":770},
+                        "size":{
+                          "width":580,
+                          "height":100},
+                        "linePattern":"none",
+                        "cornerRadiusTopLeft":"9",
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":1,
+                          "offsetY":1,
+                          "blurRadius":10,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_7/u22.png"}},
+{
+                  "id":"e10a62babf4a493aa0f775656f21307f",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":54,
+                      "y":772},
+                    "size":{
+                      "width":104,
+                      "height":92},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"bc8d0866529746739e4a501f15ec348c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":54,
+                          "y":772},
+                        "size":{
+                          "width":104,
+                          "height":92},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_1/u10.png"}},
+{
+                  "id":"4e07dd64dc0845c8b4c11265153c4614",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFA1A1A1,
+                      "opacity":1},
+                    "location":{
+                      "x":185,
+                      "y":805},
+                    "size":{
+                      "width":129,
+                      "height":36}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"1e1d5cec783947c5a6ab219e106ab3ab",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFA1A1A1,
+                          "opacity":1},
+                        "location":{
+                          "x":185,
+                          "y":805},
+                        "size":{
+                          "width":129,
+                          "height":36}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"8869a49e0b4145788ef1a88aee608941",
+                  "label":"",
+                  "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                    "fontWeight":"250",
+                    "fontStyle":"normal",
+                    "location":{
+                      "x":510,
+                      "y":788.5},
+                    "size":{
+                      "width":100,
+                      "height":69},
+                    "rotation":"0",
+                    "textRotation":"0",
+                    "borderWidth":"0",
+                    "cornerRadiusTopLeft":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f1f497b0c0204166a8a9638b48e3a949",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3ddcc43225b84073a674d4759b5ad4fd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Helvetica Neue LT Pro 33 Thin Extended', 'Helvetica Neue LT Pro'",
+                        "fontWeight":"250",
+                        "fontStyle":"normal",
+                        "location":{
+                          "x":510,
+                          "y":788.5},
+                        "size":{
+                          "width":100,
+                          "height":69},
+                        "rotation":"0",
+                        "textRotation":"0",
+                        "borderWidth":"0",
+                        "cornerRadiusTopLeft":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_6/u12.png"}}]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3ddcc43225b84073a674d4759b5ad4fd":{
+      "scriptId":"u0"},
+    "b5ad2c21619848bc8b88e450607db0e9":{
+      "scriptId":"u1"},
+    "01062137b5784d49b9fa8ff113e21a05":{
+      "scriptId":"u2"},
+    "c874a5bba06a4deda8ff32f56c6aa273":{
+      "scriptId":"u3"},
+    "d58f58249ea44d34b55f0e2d5e7ddc1b":{
+      "scriptId":"u4"},
+    "8b79ac880c4d47fc89d39914a6f0c813":{
+      "scriptId":"u5"},
+    "93d447d698534cfbbf1e5401f29e217a":{
+      "scriptId":"u6"},
+    "65891fb721d24774867bbc3e94db49e6":{
+      "scriptId":"u7"},
+    "e221e2e0a3e74ff9857a0128c7da9817":{
+      "scriptId":"u8"},
+    "2f6fb0130d43426ab0a36823a34ffe62":{
+      "scriptId":"u9"},
+    "dd8864a5f2bf43e28d47b1028edf84f3":{
+      "scriptId":"u10"},
+    "7cf6a38b5cc2437f9843f69c26f572d7":{
+      "scriptId":"u11"},
+    "42e71d3faf74446a9ed57c9dd5fde759":{
+      "scriptId":"u12"},
+    "4af273ec51104e1f9301cd13456c9a01":{
+      "scriptId":"u13"},
+    "141050e3e33f4a208636b2dacd854378":{
+      "scriptId":"u14"},
+    "7981387c3aa74406a5a44259e9d40014":{
+      "scriptId":"u15"},
+    "2ce07c2b888a483a9df3635a8e9d6ce3":{
+      "scriptId":"u16"},
+    "961b5659a4614f4da71c5a94df927b6a":{
+      "scriptId":"u17"},
+    "8a9836c2ac014bfaa4bb1cbb199cd932":{
+      "scriptId":"u18"},
+    "e98bb5a7da6d46988d6b39d7e6962309":{
+      "scriptId":"u19"},
+    "a12f4bcce0f84289b5c2c64132a5e439":{
+      "scriptId":"u20"},
+    "288231c9983642068c5499a33d54526d":{
+      "scriptId":"u21"},
+    "06ea5ebb851f4959a449f2e65368fdda":{
+      "scriptId":"u22"},
+    "a8cc469a473f462e9fd85cdb5f66b6ad":{
+      "scriptId":"u23"},
+    "e10a62babf4a493aa0f775656f21307f":{
+      "scriptId":"u24"},
+    "bc8d0866529746739e4a501f15ec348c":{
+      "scriptId":"u25"},
+    "4e07dd64dc0845c8b4c11265153c4614":{
+      "scriptId":"u26"},
+    "1e1d5cec783947c5a6ab219e106ab3ab":{
+      "scriptId":"u27"},
+    "8869a49e0b4145788ef1a88aee608941":{
+      "scriptId":"u28"},
+    "f1f497b0c0204166a8a9638b48e3a949":{
+      "scriptId":"u29"}}});
