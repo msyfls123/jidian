@@ -1,0 +1,215 @@
+﻿$axure.loadCurrentPage({
+  "url":"页面_5.html",
+  "generationDate":new Date(1389334354881.65),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kong",
+"denglu1",
+"denglu2",
+"kong2",
+"zc1",
+"zc2",
+"zc3",
+"kong3",
+"yi",
+"jiache"],
+  "page":{
+    "packageId":"98430ebe6f004ba993a71debc4d62952",
+    "type":"Axure:Page",
+    "name":"页面 5",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setPanelState",
+                "description":"设置 (动态面板) to 状态1 向右滑动 in 500ms",
+                "panelsToStates":[{
+                    "panelPath":["e4693eccb9644154af7f969d16478284"],
+                    "stateInfo":{
+                      "setStateType":"diagram",
+                      "stateNumber":2,
+                      "stateValue":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]},
+                      "loop":false,
+                      "showWhenSet":false,
+                      "options":{
+                        "animateIn":{
+                          "easing":"slideRight",
+                          "duration":500},
+                        "compress":false}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"e4693eccb9644154af7f969d16478284",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":640,
+              "height":1136}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"bd0930998dc8462daf3cff10d7c9a5eb",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[]},
+{
+              "id":"6a5a8299eb49425593c930813bd51f5b",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"c697734c67d5429b8d6f2687e9001389",
+                  "label":"",
+                  "parentDynamicPanel":"e4693eccb9644154af7f969d16478284",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":640,
+                      "height":1136}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"953f787ac9e241e49201205461227c14",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e4693eccb9644154af7f969d16478284",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":640,
+                          "height":1136}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/页面_5/u1.png"}},
+{
+                  "id":"e71d01dc699a4e25940c4fd9a9e3cdd1",
+                  "label":"",
+                  "parentDynamicPanel":"e4693eccb9644154af7f969d16478284",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":260,
+                      "y":897},
+                    "size":{
+                      "width":270,
+                      "height":93},
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":2,
+                      "offsetY":2,
+                      "blurRadius":15,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"08c2be50baa4473d9b542c981f0106b1",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e4693eccb9644154af7f969d16478284",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":260,
+                          "y":897},
+                        "size":{
+                          "width":270,
+                          "height":93},
+                        "outerShadow":{
+                          "on":true,
+                          "offsetX":2,
+                          "offsetY":2,
+                          "blurRadius":15,
+                          "color":{
+                            "r":0,
+                            "g":0,
+                            "b":0,
+                            "a":0.349019607843137}}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"设置 值于 jiache = &quot;1&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"jiache"},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]}]}]}},
+{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 页面 3",
+                              "target":{
+                                "targetType":"page",
+                                "url":"页面_3.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/页面_5/u3.png"}}]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e4693eccb9644154af7f969d16478284":{
+      "scriptId":"u0"},
+    "c697734c67d5429b8d6f2687e9001389":{
+      "scriptId":"u1"},
+    "953f787ac9e241e49201205461227c14":{
+      "scriptId":"u2"},
+    "e71d01dc699a4e25940c4fd9a9e3cdd1":{
+      "scriptId":"u3"},
+    "08c2be50baa4473d9b542c981f0106b1":{
+      "scriptId":"u4"}}});

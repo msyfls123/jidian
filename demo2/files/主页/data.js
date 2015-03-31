@@ -1,0 +1,490 @@
+﻿$axure.loadCurrentPage({
+  "url":"主页.html",
+  "generationDate":new Date(1389334353585.57),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kong",
+"denglu1",
+"denglu2",
+"kong2",
+"zc1",
+"zc2",
+"zc3",
+"kong3",
+"yi",
+"jiache"],
+  "defaultBackgroundImageInfo":{
+    "path":"images/主页/bg.jpg",
+    "width":640,
+    "height":1136},
+  "viewIdToBackgroundImageInfo":{
+},
+  "page":{
+    "packageId":"abbc5f8072354461947072c65804080b",
+    "type":"Axure:Page",
+    "name":"主页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7c3bc0a595714c6f876f33befe1853a8",
+          "label":"dl",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":18,
+              "y":911},
+            "size":{
+              "width":604,
+              "height":109}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onDrag":{
+              "description":"OnDrag",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 dl x 轴拖动",
+                      "objectsToMoves":[{
+                          "objectPath":["7c3bc0a595714c6f876f33befe1853a8"],
+                          "moveInfo":{
+                            "moveType":"dragX",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+}}}]}]}]},
+            "onDragDrop":{
+              "description":"OnDragDrop",
+              "cases":[{
+                  "description":"用例 1<br> (If area of dl1 接触后 area of dl2)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"fcall",
+                    "functionName":"IsOver",
+                    "arguments":[{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["bd8cc7a063bf4848bbe0c24796755d6a"]}]},
+{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["aa7416cf7dba4c84aa0a97f21f9a7ec6"]}]}]},
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 dl 淡入淡出 1000 毫秒",
+                      "objectsToFades":[{
+                          "objectPath":["7c3bc0a595714c6f876f33befe1853a8"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "easing":"fade",
+                              "duration":1000,
+                              "showType":"none"}}}]},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 页面 1",
+                      "target":{
+                        "targetType":"page",
+                        "url":"页面_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"用例 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 dl 拖动前到 x,y 弹跳 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["7c3bc0a595714c6f876f33befe1853a8"],
+                          "moveInfo":{
+                            "moveType":"locationBeforeDrag",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"835122138a3449439670e7c62a1f1340",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"723f0bf7cdf04a0a9761ab2d14ff7d22",
+                  "label":"",
+                  "parentDynamicPanel":"7c3bc0a595714c6f876f33befe1853a8",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":604,
+                      "height":109}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"cf5a283531af4afb9f5c08cc099fee05",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"7c3bc0a595714c6f876f33befe1853a8",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":604,
+                          "height":109}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/主页/u1.png"}},
+{
+                  "id":"bd8cc7a063bf4848bbe0c24796755d6a",
+                  "label":"dl1",
+                  "parentDynamicPanel":"7c3bc0a595714c6f876f33befe1853a8",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "opacity":"0",
+                    "size":{
+                      "width":100,
+                      "height":109}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"ac7261ede2244e698007f0632e49879b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"7c3bc0a595714c6f876f33befe1853a8",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "opacity":"0",
+                        "size":{
+                          "width":100,
+                          "height":109}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"f749c872a78841efa699babe2afda563",
+          "label":"zc",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":18,
+              "y":780},
+            "size":{
+              "width":604,
+              "height":109}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onDrag":{
+              "description":"OnDrag",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 zc x 轴拖动",
+                      "objectsToMoves":[{
+                          "objectPath":["f749c872a78841efa699babe2afda563"],
+                          "moveInfo":{
+                            "moveType":"dragX",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+}}}]}]}]},
+            "onDragDrop":{
+              "description":"OnDragDrop",
+              "cases":[{
+                  "description":"用例 1<br> (If area of zc1 接触后 area of zc2)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"fcall",
+                    "functionName":"IsOver",
+                    "arguments":[{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["d31bd1babd5a474ab9b67e68050765a0"]}]},
+{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetRectangles",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["a02e3f10d2ec4bfc889207210f2d0317"]}]}]},
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 zc 淡入淡出 1000 毫秒",
+                      "objectsToFades":[{
+                          "objectPath":["f749c872a78841efa699babe2afda563"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "easing":"fade",
+                              "duration":1000,
+                              "showType":"none"}}}]},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 页面 2",
+                      "target":{
+                        "targetType":"page",
+                        "url":"页面_2.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"用例 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"moveWidget",
+                      "description":"移动 zc 拖动前到 x,y 弹跳 500ms",
+                      "objectsToMoves":[{
+                          "objectPath":["f749c872a78841efa699babe2afda563"],
+                          "moveInfo":{
+                            "moveType":"locationBeforeDrag",
+                            "xValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "yValue":{
+                              "exprType":"stringLiteral",
+                              "value":"0",
+                              "stos":[]},
+                            "options":{
+                              "easing":"easeOutBounce",
+                              "duration":500}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"48cc3dc5e6ab4b50bc6a4dff1a1a6149",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"26fa23e0151c4c11bb48f6cfd6842528",
+                  "label":"",
+                  "parentDynamicPanel":"f749c872a78841efa699babe2afda563",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":604,
+                      "height":109}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"18836f9a530944f096a54a77240a24c3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"f749c872a78841efa699babe2afda563",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":604,
+                          "height":109}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/主页/u6.png"}},
+{
+                  "id":"d31bd1babd5a474ab9b67e68050765a0",
+                  "label":"zc1",
+                  "parentDynamicPanel":"f749c872a78841efa699babe2afda563",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "opacity":"0",
+                    "size":{
+                      "width":100,
+                      "height":109}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"1f0ec806029646b18ed361c714d65663",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"f749c872a78841efa699babe2afda563",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "opacity":"0",
+                        "size":{
+                          "width":100,
+                          "height":109}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"a02e3f10d2ec4bfc889207210f2d0317",
+          "label":"zc2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":520,
+              "y":780},
+            "size":{
+              "width":102,
+              "height":109}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"537a06c4497644be99c17a5470413340",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":520,
+                  "y":780},
+                "size":{
+                  "width":102,
+                  "height":109}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"aa7416cf7dba4c84aa0a97f21f9a7ec6",
+          "label":"dl2",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":520,
+              "y":911},
+            "size":{
+              "width":102,
+              "height":109}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1e64ce0733704aae98d474095fdd7e1a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":520,
+                  "y":911},
+                "size":{
+                  "width":102,
+                  "height":109}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7c3bc0a595714c6f876f33befe1853a8":{
+      "scriptId":"u0"},
+    "723f0bf7cdf04a0a9761ab2d14ff7d22":{
+      "scriptId":"u1"},
+    "cf5a283531af4afb9f5c08cc099fee05":{
+      "scriptId":"u2"},
+    "bd8cc7a063bf4848bbe0c24796755d6a":{
+      "scriptId":"u3"},
+    "ac7261ede2244e698007f0632e49879b":{
+      "scriptId":"u4"},
+    "f749c872a78841efa699babe2afda563":{
+      "scriptId":"u5"},
+    "26fa23e0151c4c11bb48f6cfd6842528":{
+      "scriptId":"u6"},
+    "18836f9a530944f096a54a77240a24c3":{
+      "scriptId":"u7"},
+    "d31bd1babd5a474ab9b67e68050765a0":{
+      "scriptId":"u8"},
+    "1f0ec806029646b18ed361c714d65663":{
+      "scriptId":"u9"},
+    "a02e3f10d2ec4bfc889207210f2d0317":{
+      "scriptId":"u10"},
+    "537a06c4497644be99c17a5470413340":{
+      "scriptId":"u11"},
+    "aa7416cf7dba4c84aa0a97f21f9a7ec6":{
+      "scriptId":"u12"},
+    "1e64ce0733704aae98d474095fdd7e1a":{
+      "scriptId":"u13"}}});

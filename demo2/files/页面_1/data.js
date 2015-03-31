@@ -1,0 +1,1023 @@
+﻿$axure.loadCurrentPage({
+  "url":"页面_1.html",
+  "generationDate":new Date(1389334353835.59),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"kong",
+"denglu1",
+"denglu2",
+"kong2",
+"zc1",
+"zc2",
+"zc3",
+"kong3",
+"yi",
+"jiache"],
+  "page":{
+    "packageId":"2d6ab090109c4bbf8f4a461bdce98050",
+    "type":"Axure:Page",
+    "name":"页面 1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"方正细等线_GBK",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"27190cc0aed74dd29ef0c6c955ad030e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFF2F2F2},
+            "size":{
+              "width":640,
+              "height":1136},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"41befcb560ea434b982afcf16e47f387",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFF2F2F2},
+                "size":{
+                  "width":640,
+                  "height":1136},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u0.png"}},
+{
+          "id":"f1a53356e83f492683c062b5d30ed95c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":36,
+              "y":44},
+            "size":{
+              "width":24,
+              "height":46}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b6627914e6674bd2b77d330715f03da5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":36,
+                  "y":44},
+                "size":{
+                  "width":24,
+                  "height":46}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 主页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/页面_1/u2.png"}},
+{
+          "id":"e283eedcc6524ec3af233e1cdfc20353",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"40px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":271,
+              "y":44},
+            "size":{
+              "width":102,
+              "height":45}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fe57164b537c4976a90f8842eddd7d23",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontSize":"40px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":271,
+                  "y":44},
+                "size":{
+                  "width":102,
+                  "height":45}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"dbe089e7226c48a7965d8d4d796b6c90",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":23,
+              "y":150},
+            "size":{
+              "width":594,
+              "height":280},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"16",
+            "outerShadow":{
+              "on":true,
+              "offsetX":2,
+              "offsetY":2,
+              "blurRadius":15,
+              "color":{
+                "r":0,
+                "g":0,
+                "b":0,
+                "a":0.349019607843137}}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"76021fc16a77429381e6a5dc705c5129",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":23,
+                  "y":150},
+                "size":{
+                  "width":594,
+                  "height":280},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"16",
+                "outerShadow":{
+                  "on":true,
+                  "offsetX":2,
+                  "offsetY":2,
+                  "blurRadius":15,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.349019607843137}}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u6.png"}},
+{
+          "id":"8d5c68e130e84e6aafa42c973a663144",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":43,
+              "y":160},
+            "size":{
+              "width":104,
+              "height":92},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"70df1cb105eb4af282d71070bdee90e7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":43,
+                  "y":160},
+                "size":{
+                  "width":104,
+                  "height":92},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u8.png"}},
+{
+          "id":"b1cfcdea9f504bd9801e1cd4ad41829d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":43,
+              "y":252},
+            "size":{
+              "width":104,
+              "height":92},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"70a85161850845db8382c28ac34d7738",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":43,
+                  "y":252},
+                "size":{
+                  "width":104,
+                  "height":92},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u10.png"}},
+{
+          "id":"04801f02f88b4a12903207468d229ed5",
+          "label":"yhm",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"36px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":147,
+              "y":194},
+            "size":{
+              "width":383,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = 值于 kong",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"kong"}]}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1<br> (If 文字于 This ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 kong = 文字于 This, 且<br> 值于 denglu1 = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":true,
+                                    "isFocused":false,
+                                    "isTarget":false}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"denglu1"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 This = &quot;用户名/邮箱&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":true,
+                                "isFocused":false,
+                                "isTarget":false},
+{
+                                "exprType":"stringLiteral",
+                                "value":"用户名/邮箱",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 denglu1 = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"denglu1"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 值于 kong = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"kong"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 3<br> (If 值于 denglu1 ≠ &quot;1&quot; 或 值于 denglu2 ≠ &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu2"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"禁用 enter",
+                      "pathToInfo":[{
+                          "objectPath":["677df76223f04b46b6ce82b327eace49"],
+                          "enableDisableInfo":{
+                            "enable":false}}]}]},
+{
+                  "description":"用例 4<br> (If 值于 denglu1 = &quot;1&quot; 和 值于 denglu2 = &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu2"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"启用 enter",
+                      "pathToInfo":[{
+                          "objectPath":["677df76223f04b46b6ce82b327eace49"],
+                          "enableDisableInfo":{
+                            "enable":true}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"c6aa7abf9d9242cf80f1dc17efff009a",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":43,
+              "y":252},
+            "size":{
+              "width":557,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF999999}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/页面_1/u13_line.png"}},
+{
+          "id":"3ec81f4a96d84e668c9d37a8099f1a55",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":43,
+              "y":344},
+            "size":{
+              "width":557,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF999999}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/页面_1/u13_line.png"}},
+{
+          "id":"5a8d088bf7fb4e77aea02bb23d27c7f9",
+          "label":"mi",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"36px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":151,
+              "y":290},
+            "size":{
+              "width":73,
+              "height":42}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5b3a2187bfaf4d3d872fbbc1d49baf7c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontSize":"36px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF666666,
+                  "opacity":1},
+                "location":{
+                  "x":151,
+                  "y":290},
+                "size":{
+                  "width":73,
+                  "height":42}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"67a6f89ae2424eab8d18bd9dd55f5e50",
+          "label":"mm",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontSize":"36px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":143,
+              "y":286},
+            "size":{
+              "width":383,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onFocus":{
+              "description":"OnFocus",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 mi = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["5b3a2187bfaf4d3d872fbbc1d49baf7c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]}]},
+            "onLostFocus":{
+              "description":"OnLostFocus",
+              "cases":[{
+                  "description":"用例 1<br> (If 文字于 This ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 denglu2 = &quot;1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"denglu2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]}]}}]},
+{
+                  "description":"用例 2<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 值于 denglu2 = &quot;0&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"denglu2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 文字于 mi = &quot;密码&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["5b3a2187bfaf4d3d872fbbc1d49baf7c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"密码",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}}]},
+{
+                  "description":"用例 3<br> (If 值于 denglu1 ≠ &quot;1&quot; 或 值于 denglu2 ≠ &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu2"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"禁用 enter",
+                      "pathToInfo":[{
+                          "objectPath":["677df76223f04b46b6ce82b327eace49"],
+                          "enableDisableInfo":{
+                            "enable":false}}]}]},
+{
+                  "description":"用例 4<br> (If 值于 denglu1 = &quot;1&quot; 和 值于 denglu2 = &quot;1&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu1"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"denglu2"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"enableDisableWidgets",
+                      "description":"启用 enter",
+                      "pathToInfo":[{
+                          "objectPath":["677df76223f04b46b6ce82b327eace49"],
+                          "enableDisableInfo":{
+                            "enable":true}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"677df76223f04b46b6ce82b327eace49",
+          "label":"enter",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "stateStyles":{
+              "selected":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "opacity":"1"},
+              "disabled":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "opacity":"0.3"}},
+            "location":{
+              "x":419,
+              "y":360},
+            "size":{
+              "width":181,
+              "height":61}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0449c926a9334aa8904e3c7aa8af10e0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "stateStyles":{
+                  "selected":{
+                    "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                    "fontWeight":"400",
+                    "fontStyle":"normal",
+                    "opacity":"1"},
+                  "disabled":{
+                    "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                    "fontWeight":"400",
+                    "fontStyle":"normal",
+                    "opacity":"0.3"}},
+                "location":{
+                  "x":419,
+                  "y":360},
+                "size":{
+                  "width":181,
+                  "height":61}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 页面 3",
+                      "target":{
+                        "targetType":"page",
+                        "url":"页面_3.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/页面_1/enter_u18.png",
+            "selected~":"images/页面_1/enter_u18.png",
+            "disabled~":"images/页面_1/enter_u18.png"}},
+{
+          "id":"d454b18219324fe9b00d80021ef21dc4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":290,
+              "y":386},
+            "size":{
+              "width":110,
+              "height":35}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"53acdee91d584bdebacbcabc5311cda6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'方正细等线_GBK Regular', '方正细等线_GBK'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":290,
+                  "y":386},
+                "size":{
+                  "width":110,
+                  "height":35}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/页面_1/u20.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "27190cc0aed74dd29ef0c6c955ad030e":{
+      "scriptId":"u0"},
+    "41befcb560ea434b982afcf16e47f387":{
+      "scriptId":"u1"},
+    "f1a53356e83f492683c062b5d30ed95c":{
+      "scriptId":"u2"},
+    "b6627914e6674bd2b77d330715f03da5":{
+      "scriptId":"u3"},
+    "e283eedcc6524ec3af233e1cdfc20353":{
+      "scriptId":"u4"},
+    "fe57164b537c4976a90f8842eddd7d23":{
+      "scriptId":"u5"},
+    "dbe089e7226c48a7965d8d4d796b6c90":{
+      "scriptId":"u6"},
+    "76021fc16a77429381e6a5dc705c5129":{
+      "scriptId":"u7"},
+    "8d5c68e130e84e6aafa42c973a663144":{
+      "scriptId":"u8"},
+    "70df1cb105eb4af282d71070bdee90e7":{
+      "scriptId":"u9"},
+    "b1cfcdea9f504bd9801e1cd4ad41829d":{
+      "scriptId":"u10"},
+    "70a85161850845db8382c28ac34d7738":{
+      "scriptId":"u11"},
+    "04801f02f88b4a12903207468d229ed5":{
+      "scriptId":"u12"},
+    "c6aa7abf9d9242cf80f1dc17efff009a":{
+      "scriptId":"u13"},
+    "3ec81f4a96d84e668c9d37a8099f1a55":{
+      "scriptId":"u14"},
+    "5a8d088bf7fb4e77aea02bb23d27c7f9":{
+      "scriptId":"u15"},
+    "5b3a2187bfaf4d3d872fbbc1d49baf7c":{
+      "scriptId":"u16"},
+    "67a6f89ae2424eab8d18bd9dd55f5e50":{
+      "scriptId":"u17"},
+    "677df76223f04b46b6ce82b327eace49":{
+      "scriptId":"u18"},
+    "0449c926a9334aa8904e3c7aa8af10e0":{
+      "scriptId":"u19"},
+    "d454b18219324fe9b00d80021ef21dc4":{
+      "scriptId":"u20"},
+    "53acdee91d584bdebacbcabc5311cda6":{
+      "scriptId":"u21"}}});
