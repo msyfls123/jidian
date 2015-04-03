@@ -42,16 +42,34 @@ $(document).ready(function(){
 	$("#ban").mouseenter(function(){clearTimeout(t);clearTimeout(Temp)});
 	$("#ban").mouseleave(function(){Temp=setTimeout(function(){ImgCircle(imgT,imgT+1)},3000)});
 	ImgCircle(0,0);
+
+	$("#news h2").each(function(i){
+		$(this).hover(function(){
+			$(this).addClass("now");
+			$("#news h2:eq("+(1-i)+")").removeClass("now");
+			$(".new-tab:eq("+i+")").fadeIn(500);
+			$(".new-tab:eq("+(1-i)+")").fadeOut(500);
+		})
+	});
 	/*新闻栏*/
 	var curName=0;
 	$(".newsbox:eq(0) li").each(function(i){
-		var dis=45+30*i;
+		var dis=48+27*i;
 		$(this).mouseenter(function(){
-			$("#slide").stop().animate({top:dis+"px"},500);
+			$("#slide").stop().animate({top:dis+"px"},200);
 		})
 	})
 	$(".newsbox:eq(0) ul").mouseleave(function(){
-			$("#slide").stop().animate({top:"45px"},500);
+			$("#slide").stop().animate({top:"48px"},200);
+	})
+		$(".newsbox:eq(1) li").each(function(i){
+		var dis=48+27*i;
+		$(this).mouseenter(function(){
+			$("#slide").stop().animate({top:dis+"px"},200);
+		})
+	})
+	$(".newsbox:eq(1) ul").mouseleave(function(){
+			$("#slide").stop().animate({top:"48px"},200);
 	})
 	/*新闻标签页*/
 	$(".right div.name").each(function(i){
