@@ -18,8 +18,8 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 #guide li:hover{color:#fda900}
 #fly{width:92px;height:3px;background-color:#f8c255;position:absolute}
 #dropdown{position:absolute;z-index:1000}
-.menu{display:inline-block;width:92px;vertical-align:top;top:10px}
-.menu ul{width:82px;padding:10 0 10 10px;background:#fff;margin:0 auto;font-size:12px;display:none}
+.menu{display:inline-block;width:92px;vertical-align:top;top:10px;text-align: center;}
+.menu ul{width:92px;padding:10px 0 10px 0;background:#fff;font-size:12px;display:none}
 .menu li:hover{color:#fda900;cursor:pointer}
 /*新闻栏*/
 #info{margin:20px auto;width:100%;height:300px;background:#435a7b;background: -webkit-linear-gradient(#435a7b, #36404e); /* Safari 5.1 - 6.0 */
@@ -34,7 +34,7 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 #ban li.cur{background-color:#fff;cursor:pointer}
 #news{display:inline-block;vertical-align:top;padding:15px 0 0 10px;margin:0;position:relative;color: #fff;font-size:15px;}
 #news h2{display:inline-block;margin:0 10px 0 8px;vertical-align: center;font-weight:500;}
-#news h2.now{color:#f8c255;}
+#news h2.now{color:#f6c35e;}
 #news h2:hover{cursor: pointer;}
 #news span{float: right;margin: 3px 22px 0 0;font-family: Courier;color: #14324b;font-weight: bold;font-size: 14px;}
 #news span:hover{color: #f6c35e;cursor: pointer;}
