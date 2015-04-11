@@ -1,4 +1,4 @@
-#main{margin:10px auto;width:960;height:600px;position: relative;}
+#main{margin:20px auto;width:960;position: relative;}
 #nav{width: 160px;background: #fff;position: absolute;border: 1px solid #fda900;border-top: 5px solid #fda900;padding: 15px 0 30px 0px;}
 h1{font-size: 20px;line-height: 28px;text-indent: 15px;}
 #nav>ul{margin: 20px 0 0 0px;}
@@ -9,4 +9,9 @@ h1{font-size: 20px;line-height: 28px;text-indent: 15px;}
 #nav>ul>li.active:before{content: url(../img/pointer.png);width: 10px;height: 10px;position: absolute;left: -15px;top: 12px;clip: rect(0 60px 10px 50px);}
 #nav li>ul{display: none;color: #555;padding: 5px 0 5px 0;background: #eee;width: 100%;font-size: 13px;}
 #nav li>ul>li:hover{color:#fda900;text-decoration: underline;}
-#title{position: absolute;left: 180px;top: 10px;}
+#title{position: absolute;left: 180px;top: 10px;border-left: 2px solid #fda900;padding-left: 5px;width: 780px;background: #fff;z-index: 10;}
+#table{position:relative;margin:40px 0 0 180px;padding:50px 30px 0 30px;width: 720px;height: 700px;background: #fff;}
+.menu2{margin:20px;}
+.menu2>li{font-size: 13px;line-height: 20px;margin-bottom: 10px;}
+.menu2>li>span:first-child{display: inline-block;background: #0099CC;padding: 2px 5px 2px 5px;margin: 0 20px 0 30px;line-height: 16px;text-align: center;border-radius: 5px;color: #fff;}
+.menu2>li>span:last-child{text-align: right;font-family: Courier;display: inline-block;float: right;}

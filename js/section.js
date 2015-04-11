@@ -1,5 +1,6 @@
 $(document).ready(function(){
 		var navH = $("#nav").offset().top;//获取要定位元素距离浏览器顶部的距离
+		var titleH= $("#title").offset().top;//
 		function scrollEvent1(){            //固定导航栏
 			var scroH = $(this).scrollTop();
 			if(scroH>=navH-30){
@@ -8,7 +9,15 @@ $(document).ready(function(){
 				$("#nav").css({"position":"absolute","top":0,"left":"0","margin-left":"0",});
 			}
 		};
-		$(window).scroll(function(){scrollEvent1();});   //注册固定导航栏事件
+		function scrollEvent2(){            //固定导航栏
+			var scroH = $(this).scrollTop();
+			if(scroH>=navH-30){
+				$("#title").css({"position":"fixed","top":60,"left":"50%","margin-left":"-300px","box-shadow":"15px 0 10px 30px #fff"});
+			}else if(scroH<navH-30){
+				$("#title").css({"position":"absolute","top":10,"left":"180","margin-left":"0","box-shadow":"none"});
+			}
+		};
+		$(window).scroll(function(){scrollEvent1();scrollEvent2();});   //注册固定导航栏事件
 
 		var clickFlag=-1;
 		$("#nav>ul>li>p").each(function(){ //导航栏点击事件
