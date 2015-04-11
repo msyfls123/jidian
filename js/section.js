@@ -8,29 +8,37 @@ $(document).ready(function(){
 				$("#nav").css({"position":"absolute","top":0,"left":"0","margin-left":"0",});
 			}
 		};
-		$(window).scroll(function(){scrollEvent1();});
+		$(window).scroll(function(){scrollEvent1();});   //注册固定导航栏事件
+
 		var clickFlag=-1;
-		$("#nav>ul>li>p").each(function(i){
+		$("#nav>ul>li>p").each(function(){ //导航栏点击事件
 				$(this).click(function(){
+					var i=$(this).parent().index();
 					if (clickFlag==i) {$("#nav>ul>li:nth-child("+(i+1)+") ul").slideUp();
-					$("#nav>ul>li:nth-child("+(i+1)+")").removeClass("active");$("#title span:nth-child(3),#title span:nth-child(4)").text("");clickFlag=-1;}else{
+					$("#nav>ul>li:nth-child("+(i+1)+")").removeClass("active");$("#title span:nth-child(3),#title span:nth-child(4)").text("");clickFlag=-2;}else{
 					for (var j = $("#nav>ul>li").length - 1; j >= 0; j--) {
 						if (i!=j) {
 							$("#nav>ul>li:nth-child("+(j+1)+") ul").slideUp();
 							$("#nav>ul>li:nth-child("+(j+1)+")").removeClass("active");
-							var text1=$(this).text();
-							$("#title span:nth-child(3)").text(">"+text1);
-							$("#title span:nth-child(4)").text("");
 						}else{$("#nav>ul>li:nth-child("+(i+1)+") ul").slideDown();
 								$("#nav>ul>li:nth-child("+(i+1)+")").addClass("active");}
 					};
+					var text1=$(this).text();//改标题（首页/学院/XX/）
+					$("#title span:nth-child(3)").text(">"+text1);
+					$("#title span:nth-child(4)").text("");
 					clickFlag=i;
+					location.replace("#"+i);
 					}
 				});
 		});
-		$("#nav>ul>li>ul>li").each(function(){$(this).click(function(){
+		$("#nav>ul>li>ul>li").each(function(){$(this).click(function(){ //改标题（首页/学院/XX/）
 			var text2=$(this).text();
 			$("#title span:nth-child(4)").text(">"+text2);
 		})});
 		$("#title span:nth-child(2)").text($(document).attr("title"));
+		$(".menu a").click(function(){window.location.reload();})
+		if (location.hash) {
+			var k=parseInt(location.hash.substr(1))+1;
+			$("#nav>ul>li:nth-child("+k+")>p").trigger("click")
+		};
 })
