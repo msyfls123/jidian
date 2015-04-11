@@ -32,4 +32,5 @@ $(document).ready(function(){
 			var text2=$(this).text();
 			$("#title span:nth-child(4)").text(">"+text2);
 		})});
+		$("#title span:nth-child(2)").text($(document).attr("title"));
 })
