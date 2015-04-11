@@ -59,13 +59,4 @@ $(document).ready(function(){
 			};
 		})
 	})
-	/*社交应用分享*/
-	$("#popular img").each(function(i){
-		$(this).mouseenter(function(){
-			$(this).stop(false,false).animate({top:"-30px"},500);
-		})
-		$(this).mouseleave(function(){
-			$(this).stop(true,false).animate({top:"0px"},500);
-		})
-	})
 })
