@@ -44,6 +44,7 @@ $(function(){
 	function pageselectCallback(page_index, jq){
 		// 从表单获取每页的显示的列表项数目
 		var items_per_page = $("#items_per_page").val();
+		alert(items_per_page)
 		var max_elem = Math.min((page_index+1) * items_per_page, length);
 		
 		$("#Searchresult").html("");
