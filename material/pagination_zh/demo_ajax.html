@@ -15,7 +15,7 @@ a{color:#34538b;}
 $(function(){
 	//此demo通过Ajax加载分页元素
 	var initPagination = function() {
-		var num_entries = $("#hiddenresult div.result").length;
+		var num_entries = $("#hiddenresult .result").length;
 		// 创建分页
 		$("#Pagination").pagination(num_entries, {
 			num_edge_entries: 1, //边缘页数
@@ -28,12 +28,12 @@ $(function(){
 	 };
 	 
 	function pageselectCallback(page_index, jq){
-		var new_content = $("#hiddenresult div.result:eq("+page_index+")").clone();
+		var new_content = $("#hiddenresult .result:eq("+page_index+")").clone();
 		$("#Searchresult").empty().append(new_content); //装载对应分页的内容
 		return false;
 	}
 	//ajax加载
-	$("#hiddenresult").load("load.html", null, initPagination);
+	$("#hiddenresult").load("ch0.html", null, initPagination);
 });
 </script>
 </head>

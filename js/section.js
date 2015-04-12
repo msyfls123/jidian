@@ -45,8 +45,9 @@ $(document).ready(function(){
 					$("#title span:nth-child(4)").text("");
 					$(".menu1").slideUp();
 					window.clickFlag=i;
-					var locate="ch0."+i+".html";
+					var locate="ch"+i+".html";
 					$("#hiddenresult").load(locate, null, initPagination);
+					alert($("#Pagination").pagination);
 					location.replace("#"+i);
 					$("#tab").show();
 					}
@@ -74,4 +75,31 @@ $(document).ready(function(){
 		}else{
 			$("#tab").hide();
 		};
+		//这是一个非常简单的demo实例，让列表元素分页显示
+				//回调函数的作用是显示对应分页的列表项内容
+				//回调函数在用户每次点击分页链接的时候执行
+				//参数page_index{int整型}表示当前的索引页
+		var initPagination = function() {
+					var num_entries = $("#hiddenresult li").length;
+					// 创建分页a
+					$("#Pagination").pagination(num_entries, {
+						num_edge_entries: 1, //边缘页数
+						num_display_entries: 4, //主体页数
+						items_per_page:10,//每页显示1项
+						prev_text:"前页",
+						next_text:"后页",
+						callback: pageselectCallback
+					});
+				 }();
+				 
+				function pageselectCallback(page_index, jq){
+					$("#Searchresult").empty();
+					for (var i = page_index*10; i < (page_index+1)*10; i++) {
+						var new_content = $("#hiddenresult li:eq("+i+")").clone();
+						$("#Searchresult").append(new_content);
+					};
+					//装载对应分页的内容
+					return false;
+				}
+				
 })
