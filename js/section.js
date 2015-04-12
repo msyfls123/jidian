@@ -45,7 +45,9 @@ $(document).ready(function(){
 					$("#title span:nth-child(4)").text("");
 					$(".menu1").slideUp();
 					window.clickFlag=i;
-					$("#hiddenresult").load("ch0."+i+".html", null, initPagination);
+					var locate="ch0."+i+".html";
+					alert(locate)
+					$("#hiddenresult").load(locate, null, initPagination);
 					location.replace("#"+i);
 					$("#tab").show();
 					}
