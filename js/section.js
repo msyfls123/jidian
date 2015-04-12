@@ -46,8 +46,9 @@ $(document).ready(function(){
 					$(".menu1").slideUp();
 					window.clickFlag=i;
 					var locate="ch"+i+".html";
+					//出错的代码~
 					$("#hiddenresult").load(locate, null, initPagination);
-					alert($("#Pagination").pagination);
+					//$.proxy(window,$("#Pagination").pagination);
 					location.replace("#"+i);
 					$("#tab").show();
 					}
@@ -69,8 +70,8 @@ $(document).ready(function(){
 		$(".menu a").click(function(){window.location.reload();}) //页面初始化
 		if (location.hash) {
 			
-			var k=parseInt(location.hash.substr(1))+1;
-			$("#nav>ul>li:nth-child("+k+")>p").trigger("click");
+			var k=parseInt(location.hash.substr(1));
+			$("#nav>ul>li:eq("+k+")>p").trigger("click");
 			$("#tab").show();
 		}else{
 			$("#tab").hide();
