@@ -29,17 +29,16 @@ $(document).ready(function(){
 						window.clickFlag=-2;
 						location.replace("#");
 						$(".menu1").slideDown();
-						$(".menu2").slideUp();
 						$("#tab").hide();
 					}else{
 					for (var j = $("#nav>ul>li").length - 1; j >= 0; j--) {
 						if (i!=j) {
 							$("#nav>ul>li:nth-child("+(j+1)+") ul").slideUp();
 							$("#nav>ul>li:nth-child("+(j+1)+")").removeClass("active");
-							$(".menu2:eq("+j+")").slideUp();
+							
 						}else{$("#nav>ul>li:nth-child("+(i+1)+") ul").slideDown();
 								$("#nav>ul>li:nth-child("+(i+1)+")").addClass("active");
-							$(".menu2:eq("+i+")").slideDown();}
+							$("#tab").slideDown();}
 					};
 					var text1=$(this).text();//改标题（首页/学院/XX/）
 					$("#title span:nth-child(3)").text(">"+text1);

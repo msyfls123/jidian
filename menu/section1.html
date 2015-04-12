@@ -162,9 +162,8 @@
 				</ul>
 				<div id="tab">
 				<div id="Searchresult">分页初始化完成后这里的内容会被替换。</div>
-				<div id="hiddenresult" style="display:none;">
 				<!-- 列表元素 -->
-			    <ul class="menu2" style="display:none">
+			    <ul id="hiddenresult" style="display:none">
 					<li><span>学校领导</span><span>1在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
 					<li><span>学校领导</span><span>2在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
 					<li><span>学校领导</span><span>3在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
@@ -186,13 +185,6 @@
 					<li><span>学校领导</span><span>7在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
 					<li><span>学校领导</span><span>8在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
 				</ul>
-				<ul class="menu2" style="display:none">
-					<li><span>学校领导</span><span>11在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
-					<li><span>学校领导</span><span>22在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
-					<li><span>学校领导</span><span>33在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
-					<li><span>学校领导</span><span>44在伟大人民领袖毛主席的领导下完成了社会主义改造让人民过上幸福美满生活</span><span>2015/4/11</span></li>
-				</ul>
-				</div>
 				<div id="Pagination" class="pagination"><!-- 这里显示分页 --></div>
 				</div>
 				</div>
@@ -259,7 +251,7 @@
 				//回调函数在用户每次点击分页链接的时候执行
 				//参数page_index{int整型}表示当前的索引页
 				var initPagination = function() {
-					var num_entries = $("#hiddenresult .menu2:eq(0) li").length;
+					var num_entries = $("#hiddenresult li").length;
 					// 创建分页
 					$("#Pagination").pagination(num_entries, {
 						num_edge_entries: 1, //边缘页数
@@ -274,10 +266,11 @@
 				function pageselectCallback(page_index, jq){
 					$("#Searchresult").empty();
 					for (var i = page_index*10; i < (page_index+1)*10; i++) {
-						var new_content = $("#hiddenresult .menu2:eq(0) li:eq("+i+")").clone();
+						var new_content = $("#hiddenresult li:eq("+i+")").clone();
 						$("#Searchresult").append(new_content);
 					};
 					//装载对应分页的内容
+					$("#hiddenresult").load("../menuData/ch0.0.html", null, initPagination);
 					return false;
 				}
 			});
