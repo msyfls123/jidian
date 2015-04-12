@@ -46,7 +46,6 @@ $(document).ready(function(){
 					$(".menu1").slideUp();
 					window.clickFlag=i;
 					var locate="ch0."+i+".html";
-					alert(locate)
 					$("#hiddenresult").load(locate, null, initPagination);
 					location.replace("#"+i);
 					$("#tab").show();
