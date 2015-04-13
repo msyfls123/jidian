@@ -47,8 +47,8 @@ $(document).ready(function(){
 					window.clickFlag=i;
 					var locate="ch"+i+".html";
 					//出错的代码~
-					$("#hiddenresult").load(locate, null, initPagination);
-					//$.proxy(window,$("#Pagination").pagination);
+					$("#hiddenresult").load(locate, null, function(){var num_entries=getNum_entries();$("#Pagination").pagination(num_entries, opt);});
+					//alert($("#Pagination").pagination);
 					location.replace("#"+i);
 					$("#tab").show();
 					}
@@ -80,18 +80,23 @@ $(document).ready(function(){
 				//回调函数的作用是显示对应分页的列表项内容
 				//回调函数在用户每次点击分页链接的时候执行
 				//参数page_index{int整型}表示当前的索引页
-		var initPagination = function() {
-					var num_entries = $("#hiddenresult li").length;
-					// 创建分页a
-					$("#Pagination").pagination(num_entries, {
-						num_edge_entries: 1, //边缘页数
-						num_display_entries: 4, //主体页数
-						items_per_page:10,//每页显示1项
-						prev_text:"前页",
-						next_text:"后页",
-						callback: pageselectCallback
-					});
-				 }();
+		
+		function getNum_entries(){
+			var Temp=$("#hiddenresult li").length;
+			return Temp;
+		}
+		var num_entries=getNum_entries();
+		// 创建分页a
+		var opt={
+			num_edge_entries: 1, //边缘页数
+			num_display_entries: 4, //主体页数
+			items_per_page:10,//每页显示1项
+			prev_text:"前页",
+			next_text:"后页",
+			callback: pageselectCallback
+		}
+		$("#Pagination").pagination(num_entries, opt);
+		
 				 
 				function pageselectCallback(page_index, jq){
 					$("#Searchresult").empty();
