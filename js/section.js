@@ -11,6 +11,35 @@ var menuList={"学院概况":0,
 $(document).ready(function(){
 		var navH = $("#nav").offset().top;//获取要定位元素距离浏览器顶部的距离
 		var titleH= $("#title").offset().top;//
+		//这是一个非常简单的demo实例，让列表元素分页显示
+				//回调函数的作用是显示对应分页的列表项内容
+				//回调函数在用户每次点击分页链接的时候执行
+				//参数page_index{int整型}表示当前的索引页
+		
+		function getNum_entries(){
+			var Temp=$("#hiddenresult li").length;
+			return Temp;
+		}
+		var num_entries=getNum_entries();
+		// 创建分页a
+		var opt={
+			num_edge_entries: 1, //边缘页数
+			num_display_entries: 4, //主体页数
+			items_per_page:10,//每页显示1项
+			prev_text:"前页",
+			next_text:"后页",
+			callback: pageselectCallback
+		}
+		//$("#Pagination").pagination(num_entries, opt);	 
+		function pageselectCallback(page_index, jq){
+			$("#Searchresult").empty();
+			for (var i = page_index*10; i < (page_index+1)*10; i++) {
+				var new_content = $("#hiddenresult li:eq("+i+")").clone();
+				$("#Searchresult").append(new_content);
+			};
+			//装载对应分页的内容
+			return false;
+		}
 		function scrollEvent1(){            //固定导航栏
 			var scroH = $(this).scrollTop();
 			if(scroH>=navH-30){
@@ -54,13 +83,12 @@ $(document).ready(function(){
 					$("#title span:nth-child(3)").text(">"+text1);
 					$("#title span:nth-child(4)").text("");
 					$(".menu1").slideUp();
-					window.clickFlag=i;
 					var locate="ch"+menuList[document.title]+i+".html";
 					//出错的代码~
 					$("#hiddenresult").load(locate, null, function(){var num_entries=getNum_entries();$("#Pagination").pagination(num_entries, opt);});
-					//alert($("#Pagination").pagination);
 					location.replace("#"+i);
 					$("#tab").show();
+					window.clickFlag=i;
 					}
 				});
 		});
@@ -78,6 +106,8 @@ $(document).ready(function(){
 			})
 		});
 		$(".menu a").click(function(){window.location.reload();}) //页面初始化
+		
+		
 		if (location.hash) {
 			
 			var k=parseInt(location.hash.substr(1));
@@ -86,44 +116,10 @@ $(document).ready(function(){
 		}else{
 			$("#tab").hide();
 		};
-		if (location.search) {
-			
-			var k=parseInt(location.search.substr(1));
-			$("#nav>ul>li:eq("+k+")>p").trigger("click");
-			$("#tab").show();
-		}else{
-			$("#tab").hide();
-		};
-		//这是一个非常简单的demo实例，让列表元素分页显示
-				//回调函数的作用是显示对应分页的列表项内容
-				//回调函数在用户每次点击分页链接的时候执行
-				//参数page_index{int整型}表示当前的索引页
-		
-		function getNum_entries(){
-			var Temp=$("#hiddenresult li").length;
-			return Temp;
-		}
-		var num_entries=getNum_entries();
-		// 创建分页a
-		var opt={
-			num_edge_entries: 1, //边缘页数
-			num_display_entries: 4, //主体页数
-			items_per_page:10,//每页显示1项
-			prev_text:"前页",
-			next_text:"后页",
-			callback: pageselectCallback
-		}
-		$("#Pagination").pagination(num_entries, opt);
-		
-				 
-				function pageselectCallback(page_index, jq){
-					$("#Searchresult").empty();
-					for (var i = page_index*10; i < (page_index+1)*10; i++) {
-						var new_content = $("#hiddenresult li:eq("+i+")").clone();
-						$("#Searchresult").append(new_content);
-					};
-					//装载对应分页的内容
-					return false;
-				}
-				
+
+		//var p="123#adasdada";
+		//var patt1=new RegExp("#","g")
+		//patt1.test(p)
+		//alert(p.slice(0,patt1.lastIndex)+1);
+
 })
