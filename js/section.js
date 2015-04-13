@@ -1,3 +1,13 @@
+var menuList={"学院概况":0,
+			  "师资队伍":1,
+			  "本科生教育":2,
+			  "研究生教育":3,
+			  "科学研究":4,
+			  "实验室建设":5,
+			  "党建工作":6,
+			  "学生工作":7,
+			  "下载专区":8,
+			}
 $(document).ready(function(){
 		var navH = $("#nav").offset().top;//获取要定位元素距离浏览器顶部的距离
 		var titleH= $("#title").offset().top;//
@@ -45,7 +55,7 @@ $(document).ready(function(){
 					$("#title span:nth-child(4)").text("");
 					$(".menu1").slideUp();
 					window.clickFlag=i;
-					var locate="ch"+i+".html";
+					var locate="ch"+menuList[document.title]+i+".html";
 					//出错的代码~
 					$("#hiddenresult").load(locate, null, function(){var num_entries=getNum_entries();$("#Pagination").pagination(num_entries, opt);});
 					//alert($("#Pagination").pagination);
@@ -71,6 +81,14 @@ $(document).ready(function(){
 		if (location.hash) {
 			
 			var k=parseInt(location.hash.substr(1));
+			$("#nav>ul>li:eq("+k+")>p").trigger("click");
+			$("#tab").show();
+		}else{
+			$("#tab").hide();
+		};
+		if (location.search) {
+			
+			var k=parseInt(location.search.substr(1));
 			$("#nav>ul>li:eq("+k+")>p").trigger("click");
 			$("#tab").show();
 		}else{
