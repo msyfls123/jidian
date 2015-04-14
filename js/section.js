@@ -65,6 +65,7 @@ $(document).ready(function(){
 					if (window.clickFlag==i) {$("#nav>ul>li:nth-child("+(i+1)+") ul").slideUp();
 						$("#nav>ul>li:nth-child("+(i+1)+")").removeClass("active");
 						$("#title span:nth-child(3),#title span:nth-child(4)").text("");
+						$("#titleTop span").text(document.title);
 						window.clickFlag=-2;
 						location.replace("#");
 						$(".menu1").slideDown();
@@ -82,6 +83,7 @@ $(document).ready(function(){
 					var text1=$(this).text();//改标题（首页/学院/XX/）
 					$("#title span:nth-child(3)").text(">"+text1);
 					$("#title span:nth-child(4)").text("");
+					$("#titleTop span").text(text1);
 					$(".menu1").slideUp();
 					var locate="ch"+menuList[document.title]+i+".html";
 					//出错的代码~

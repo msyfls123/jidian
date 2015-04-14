@@ -17,10 +17,10 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 #guide{width:960px;height:48px;background-color:#f3f3f3;box-shadow:0 2px 10px 1px #ddd;margin-top:12px;position:relative}
 #guide li{width:92px;height:31px;display:inline-block;text-align:center;padding:14px 0 0 0;font-size:15px;color:#435a7b;letter-spacing:-1px;font-weight:500}
 #guide li:hover{color:#fda900}
-#fly{width:92px;height:3px;background-color:#f8c255;position:absolute}
+#fly{width:92px;height:3px;background-color:#f8c255;position:absolute;border-radius: 3px 3px 0 0;}
 #dropdown{position:absolute;z-index:1000}
 .menu{display:inline-block;width:92px;vertical-align:top;top:10px;text-align: center;}
-.menu ul{width:92px;padding:10px 0 10px 0;background:#fff;font-size:12px;display:none}
+.menu ul{width:92px;padding:10px 0 10px 0;background:#fff;font-size:12px;display:none;border-bottom: 1px solid #fda900;border-left: 1px solid #fda900;border-right: 1px solid #fda900;}
 .menu li:hover{color:#fda900;cursor:pointer}
 /*底栏*/
 #bottom{background-color: #e9eae2;margin-top: 20px;}
