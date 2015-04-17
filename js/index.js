@@ -33,20 +33,21 @@ $(document).ready(function(){
 	$(".newsbox:eq(0) li").each(function(i){
 		var dis=48+27*i;
 		$(this).mouseenter(function(){
-			$("#slide").stop().animate({top:dis+"px"},200);
+			
+			$("#slide").stop(false,false).fadeIn().animate({top:dis+"px"},200);
 		})
 	})
 	$(".newsbox:eq(0) ul").mouseleave(function(){
-			$("#slide").stop().animate({top:"48px"},200);
+			$("#slide").stop(true,false).fadeOut();
 	})
 		$(".newsbox:eq(1) li").each(function(i){
 		var dis=48+27*i;
 		$(this).mouseenter(function(){
-			$("#slide").stop().animate({top:dis+"px"},200);
+			$("#slide").stop(false,false).fadeIn().animate({top:dis+"px"},200);
 		})
 	})
 	$(".newsbox:eq(1) ul").mouseleave(function(){
-			$("#slide").stop().animate({top:"48px"},200);
+			$("#slide").stop(true,false).fadeOut();
 	})
 	/*新闻标签页*/
 	$(".right div.name").each(function(i){

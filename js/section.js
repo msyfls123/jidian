@@ -43,7 +43,7 @@ $(document).ready(function(){
 		function scrollEvent1(){            //固定导航栏
 			var scroH = $(this).scrollTop();
 			if(scroH>=navH-30){
-				$("#nav").css({"position":"fixed","top":50,"left":"50%","margin-left":"-480px"});
+				$("#nav").css({"position":"fixed","top":20,"left":"50%","margin-left":"-480px"});
 			}else if(scroH<navH-30){
 				$("#nav").css({"position":"absolute","top":0,"left":"0","margin-left":"0",});
 			}
@@ -51,9 +51,9 @@ $(document).ready(function(){
 		function scrollEvent2(){            //固定导航栏
 			var scroH = $(this).scrollTop();
 			if(scroH>=navH-30){
-				$("#title").css({"position":"fixed","top":60,"left":"50%","margin-left":"-300px","box-shadow":"15px -8px 10px 30px #fff"});
+				$("#title").css({"position":"fixed","top":30,"left":"50%","margin-left":"-300px","box-shadow":"15px -8px 10px 30px #fff"});
 			}else if(scroH<navH-30){
-				$("#title").css({"position":"absolute","top":10,"left":"180","margin-left":"0","box-shadow":"none"});
+				$("#title").css({"position":"absolute","top":10,"left":"180","margin-left":"-300px","box-shadow":"none"});
 			}
 		};
 		$(window).scroll(function(){scrollEvent1();scrollEvent2();});   //注册固定导航栏事件
