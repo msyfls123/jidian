@@ -53,7 +53,7 @@ $(document).ready(function(){
 			if(scroH>=navH-30){
 				$("#title").css({"position":"fixed","top":30,"left":"50%","margin-left":"-300px","box-shadow":"15px -8px 10px 30px #fff"});
 			}else if(scroH<navH-30){
-				$("#title").css({"position":"absolute","top":10,"left":"180","margin-left":"-300px","box-shadow":"none"});
+				$("#title").css({"position":"absolute","top":10,"left":"180px","margin-left":"0px","box-shadow":"none"});
 			}
 		};
 		$(window).scroll(function(){scrollEvent1();scrollEvent2();});   //注册固定导航栏事件
