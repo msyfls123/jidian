@@ -5,11 +5,11 @@ form{display:inline-block}
 input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;font-family:inherit;font-size:100%}
 input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:none}
 /*顶栏*/
-#header{width:100%;height:24px;background-color:#36404d;text-align:right;color:white;padding:4px 20px 0 0;z-index: 1001;color: #758190;}
+#header{width:100%;height:24px;background-color:#36404d;text-align:right;color:white;padding:4px 0 0 0;z-index: 1001;color: #758190;}
 #header span:hover{color:#f8c255}
 #header input[type=search]{background:transparent url(../img/search-icon1.png) no-repeat 2px center;width:18px;height:18px;color:transparent;cursor:pointer;-webkit-border-radius:10em;-moz-border-radius:10em;border-radius:10em;border:1px solid #ccc;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s;font-size:14px}
 #header input[type=search]:hover{background:#fff url(../img/search-icon1.png) no-repeat 2px center}
-#header input[type=search]:focus{width:120px;padding-left:32px;color:#000;background:#fff url(../img/search-icon2.png) no-repeat 2px center;cursor:auto;border-color:#6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-shadow:0 0 5px rgba(109,207,246,.5);box-shadow:0 0 5px rgba(109,207,246,.5)}
+#header input[type=search]:focus{width:120px;padding-left:32px;color:#000;background:#fff url(../img/search-icon2.png) no-repeat 5px center;cursor:auto;border-color:#6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-shadow:0 0 5px rgba(109,207,246,.5);box-shadow:0 0 5px rgba(109,207,246,.5)}
 #top{background:#e9eae2 url(../img/bg.jpg) no-repeat center 0px;width:100%;}
 .index{height: 518px;}
 #cube{width:124px;height:134px;background:#f8c255 url(../img/Logo.png) no-repeat 50% 75%;display:inline-block;}
