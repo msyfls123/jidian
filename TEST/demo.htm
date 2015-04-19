@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="state-machine.js"></script>
+		<style type="text/css">
+			#lights{position:absolute;top:70px;left:50%;margin-left:-75px;width: 150px;height: 450px;background: #000;border-radius: 5px;z-index: 20;border-right: 5px solid #555;border-bottom: 5px solid #ccc;}
+			#red,#yellow,#green{width: 80px;height: 80px;border-radius: 50%;border:1px solid #fff;margin: 50px 0 0 35px;}
+			#red{background: rgba(255,0,0,0.15) url(r.png) 80px 0;border:1px solid #f00;}
+			#yellow{background: url(y.png) 80px 0;border:1px solid #ff0;}
+			#green{background: url(g.png) 80px 0;border:1px solid #0f0;}
+			#red.active{background: rgba(255,0,0,0.15) url(r.png) 0 0;border:1px solid #f00;}
+			#yellow.active{background: url(y.png) 0 0;border:1px solid #ff0;}
+			#green.active{background: url(g.png) 0 0;border:1px solid #0f0;}
+			#text{position: absolute;top:550px;left: 50%;margin-left:-100px;width: 200px;height: 50px;background: #f0f0f0; font-family: Microsoft Yahei;text-align: center;padding-top:10px;font-size: 24px;border-radius: 5px;border: 1px solid #7af;}
+			#timer{position: absolute;width: 200px;height: 170px;top:80px;left: 50%;margin-left:175px;background-color: #111;border-radius:10px;font-size: 120px;color: #FFFF00;text-align: center;padding-top: 30px;z-index: 20;border-right: 5px solid #555;border-bottom: 5px solid #ccc;font-family: Verdana;}
+			#cube{position: absolute;width: 200px;height: 10px;top:110px;left: 50%;margin-left:50px;background-color: #fff;border: 7px solid #369;}
+		</style>
+	</head>
+	<body>
+		<div id="lights">
+			<div id="red"></div>
+			<div id="yellow"></div>
+			<div id="green"></div>
+		</div>
+		<div id="text"><span id="slogan"></span></div>
+		<div id="timer">12</div>
+		<div id="cube"></div>
+		<button onclick="TL.warn();">停车</button>
+		<button onclick="TL.ready();">准备通行</button>
+		<script type="text/javascript">
+		var go1,go2;
+		var tickRed=function(n){
+			$("#timer").css({"color":"#0f0"});
+			n--;
+			if(n>0){
+			$("#timer").text(n);
+			go1=setTimeout(function(){tickRed(n)},1000)
+		}else{$("#timer").text("");TL.warn();}
+		}
+		var tickGreen=function(n){
+			$("#timer").css({"color":"#f00"});
+			n--;
+			if(n>0){
+			$("#timer").text(n);
+			go2=setTimeout(function(){tickGreen(n)},1000)
+		}else{$("#timer").text("");TL.ready();}
+		}
+		TL=function(){
+			var text=$("#slogan");
+			var current=0;
+			var fsm = StateMachine.create({
+			    initial: 'green',
+				events: [
+					{ name: 'warn',  from: 'green',  to: 'yellow' },
+					{ name: 'stop', from: 'yellow', to: 'red' },
+					{ name: 'ready',  from: 'red',    to: 'yellow' },
+					{ name: 'go', from: 'yellow', to: 'green' }
+				],
+				callbacks: {
+					onleavegreen: function(event, from, to){async(to);current=1;return StateMachine.ASYNC;},
+					onyellow: function(event, from, to){text.text("等待中……");$("#green").removeClass("active");$("#red").removeClass("active");$("#yellow").addClass("active");if (current==1) {fsm.stop()}else{fsm.go()};},
+					onleaveyellow:function(event, from, to){async(to);return StateMachine.ASYNC;},
+					onred: function(event, from, to){text.text("停车");$("#yellow").removeClass("active");$("#red").addClass("active");tickGreen(20);},
+					onleavered:function(event, from, to){async(to);current=2;return StateMachine.ASYNC;},
+					ongreen: function(event, from, to){text.text("通行");$("#yellow").removeClass("active");$("#green").addClass("active");tickRed(20);},
+					onbeforewarn: function(event,from,to){clearTimeout(go1);$("#timer").text("");},
+					onbeforeready: function(event,from,to){clearTimeout(go2);$("#timer").text("");}
+				}
+	    	});
+	    	var async = function(to) {
+			    pending(to, 3);
+			    setTimeout(function() {
+			      pending(to, 2);
+			      setTimeout(function() {
+			        pending(to, 1);
+			        setTimeout(function() {
+			          fsm.transition(); // trigger deferred state transition
+			        }, 1000);
+			      }, 1000);
+			    }, 1000);
+			  };
+			var pending = function(to, n) {
+				switch(to)
+				{
+					case "yellow":
+					$("#slogan").text("等待: "   + n+"秒"); break;
+					case "red":
+					$("#slogan").text("请停车: "   + n+"秒"); break;
+					default:
+					$("#slogan").text("即将通行: "   + n+"秒"); break;
+				}
+			};
+	    	//fsm.start();
+	    	return fsm;
+		}();
+		</script>
+	</body>
+</html>

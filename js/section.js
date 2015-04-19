@@ -7,6 +7,7 @@ var menuList={"学院概况":0,
 			  "党建工作":6,
 			  "学生工作":7,
 			  "下载专区":8,
+			  "Bachelor":2,
 			}
 $(document).ready(function(){
 		var navH = $("#nav").offset().top;//获取要定位元素距离浏览器顶部的距离
@@ -26,8 +27,8 @@ $(document).ready(function(){
 			num_edge_entries: 1, //边缘页数
 			num_display_entries: 4, //主体页数
 			items_per_page:10,//每页显示1项
-			prev_text:"前页",
-			next_text:"后页",
+			prev_text:"Prev",
+			next_text:"Next",
 			callback: pageselectCallback
 		}
 		//$("#Pagination").pagination(num_entries, opt);	 
