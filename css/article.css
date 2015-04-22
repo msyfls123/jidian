@@ -1,0 +1,13 @@
+h1{text-align: center;color: #353C44;font-weight: bold;}
+#attribute{text-align: center;margin:50px 0 20px 0;}
+#attribute li{display:inline-block;text-align: center;margin:0 70px 0 70px;list-style-type: circle;}
+#attribute li:hover{text-decoration: underline;cursor:pointer;color: #fda900;}
+#body{width: 720px;position: relative;}
+#body p{text-indent: 24px;font-size: 15px;}
+#body img{display:block;margin: 20px auto;}
+#body img~span{position:relative;display:block;width: 200px;left: 50%;margin-left: -100px;text-align: center;}
+#body table{margin: 0px auto;text-align: center;padding: 5px;}
+#body table th{color: #369;border: 1px solid #09c;padding: 5px;text-align: center;}
+#body table td{border: 1px solid #09c;padding: 5px;}
+#body table tr:first-of-type{border: none;}
+.headTable{position:relative;display:block;width: 200px;left: 50%;margin-left: -100px;text-align: center;margin-top: 20px;}
