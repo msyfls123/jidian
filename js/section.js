@@ -120,6 +120,9 @@ $(document).ready(function(){
 			$("#tab").hide();
 		};
 
+		$("#reminder span:eq(1)").click(function(){
+			alert($("#reminder>ul>li>span").text());
+		})
 		//var p="123#adasdada";
 		//var patt1=new RegExp("#","g")
 		//patt1.test(p)
