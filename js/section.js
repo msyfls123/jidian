@@ -121,6 +121,8 @@ $(document).ready(function(){
 		};
 
 		$("#reminder span:eq(1)").click(function(){
+			t=$("#reminder>ul>span").text();
+			//window.clipboardData.setData('text',t);
 			alert($("#reminder>ul>li>span").text());
 		})
 		//var p="123#adasdada";
