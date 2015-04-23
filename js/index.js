@@ -59,5 +59,9 @@ $(document).ready(function(){
 				curName=i;
 			};
 		})
+	});
+	$(".newsbox").each(function(i){
+		var locate="news"+i+".html";
+		$(this).load(locate, null,null);
 	})
 })
