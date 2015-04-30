@@ -17,13 +17,13 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 /*导航栏*/
 #guide{width:960px;height:48px;background-color:#f3f3f3;box-shadow:0 2px 10px 1px #ddd;margin-top:12px;position:relative}
 #guide li{width:92px;height:31px;display:inline-block;text-align:center;padding:14px 0 0 0;font-size:16px;color:#353c44;letter-spacing:-1px;font-weight:500}
-#guide li:hover{color:#fda900}
+#guide li.pick{color:#fda900}
 #fly{width:92px;height:3px;background-color:#f8c255;position:absolute;border-radius: 3px 3px 0 0;}
 #dropdown{position:absolute;z-index:1000}
 .menu{display:inline-block;width:92px;vertical-align:top;top:10px;text-align: center;}
-.menu ul{width:92px;padding:10px 0 10px 0;background:#fafafa;font-size:12px;display:none;/*border-bottom: 1px solid #fda900;border-left: 1px solid #fda900;border-right: 1px solid #fda900;*/}
-.menu li{margin-top: 2px;}
-.menu li:hover{color:#fda900;cursor:pointer}
+.menu ul{min-width:92px;background:#fafafa;font-size:14px;display:none;/*border-bottom: 1px solid #fda900;border-left: 1px solid #fda900;border-right: 1px solid #fda900;*/}
+.menu li{padding: 5px 0 5px 0;}
+.menu li:hover{background:#fda900;cursor:pointer;color: #fff;}
 /*底栏*/
 #bottom{background-color: #f2f2f2;margin-top: 20px;}
 #bottom .part{display: inline-block;padding: 30px 0 20px 0;width: 300px;}

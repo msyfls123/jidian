@@ -1,15 +1,22 @@
 var menuArray=new Array(0,0,0,0,0,0,0,0,0,0);
+var menuList1=[["学院概况","学院简介","党委班子","行政班子","组织机构","办公电话","三级单位"],
+			   ["师资队伍","学生工作"],
+			   ["学院概况","学生工作"]
+			  ];
 $(document).ready(function(){
 	$("#guide li").each(function(i){
 		var step=i*96;
+		var delayTime=200;
 		/*鼠标移入导航栏 */
 		$(this).mouseenter(function(){
-			$("#fly").stop().animate({left:step+"px"},500);
-			$(".menu ul:eq("+i+")").stop().slideDown(500);
+			$("#fly").stop().animate({left:step+"px"},delayTime);
+			$(".menu ul:eq("+i+")").stop().slideDown(delayTime);
+			$("#guide li:eq("+i+")").addClass("pick");
 			menuArray[i]=1;
 			for (var j = 9; j >= 0; j--) {
 				if (menuArray[j]==1&&j!=i) {
-					$(".menu ul:eq("+j+")").stop().slideUp(500);
+					$(".menu ul:eq("+j+")").stop().slideUp(delayTime);
+					$("#guide li:eq("+j+")").removeClass("pick");
 					menuArray[j]=0;
 				};
 			};
@@ -17,8 +24,9 @@ $(document).ready(function(){
 		/*鼠标移出导航栏 */
 		$(this).mouseleave(function(){
 			$("#con").mouseleave(function(){			
-				$(".menu ul:eq("+i+")").stop().slideUp(500,function(){menuArray[i]=0;});
-				$("#fly").stop().animate({left:"0px"},500);
+				$(".menu ul:eq("+i+")").stop().slideUp(delayTime,function(){menuArray[i]=0;});
+				$("#guide li:eq("+i+")").removeClass("pick");
+				$("#fly").stop().animate({left:"0px"},delayTime);
 			});
 		});
 	});

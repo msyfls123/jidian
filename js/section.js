@@ -108,7 +108,7 @@ $(document).ready(function(){
 				$(".menu2").slideDown();
 			})
 		});
-		$(".menu a").click(function(){window.location.reload();}) //页面初始化
+		$(".menu li").click(function(){window.location.reload();}) //页面初始化
 		
 		
 		if (location.hash) {
@@ -129,5 +129,4 @@ $(document).ready(function(){
 		//var patt1=new RegExp("#","g")
 		//patt1.test(p)
 		//alert(p.slice(0,patt1.lastIndex)+1);
-
 })
