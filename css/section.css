@@ -1,12 +1,14 @@
+body{background: url(../img/bg3.jpg) 50% 300px no-repeat;}
 #titleTop{width: 100%;height: 184px;margin: 15px 0 0 0;background:url(../img/bg2.jpg) 50% no-repeat #4f565f;}
 #titleTop span{position:absolute;left:50%;margin:120px 0 0 -480px;font-size: 42px;color: #fff;font-weight: 700;}
-#main{width:960px;background: #f3f4f4;position: relative;min-height: 450px;margin: 0px auto;padding-top: 40px;}
-#nav{width: 160px;top:40px;position: absolute;}
+#main{width:960px;background: rgba(220,220,220,0.5);position: relative;min-height: 450px;margin: 0px auto;padding-top: 40px;}
+#nav{width: 180px;top:40px;position: absolute;}
 #nav>ul>li{padding:7px 0 7px 0;text-indent: 25px;font-size: 16px;position: relative;}
 #nav>ul>li:hover{background-color:#fda900;cursor: pointer;color: #fff;}
-#nav>ul>li.active{background-color:#fda900;cursor: pointer;color: #fff;}
-#title{position: absolute;left: 180px;top: 15px;padding-left: 5px;width: 780px;z-index: 10;color: #ababab;}
-#table{position: relative;margin:0 0 0 180px;padding:50px 30px 0 30px;width: 700px;background: #fff;box-shadow: 0 0px 5px 2px #ededed;}
+#nav>ul>li.active{background-color:rgba(255,255,255,0.5);cursor: pointer;color: #333;}
+#nav>ul>li.active:before{content: url(../img/dot.png);position: absolute;left: 120px}
+#title{position: absolute;left: 180px;top: 10px;padding: 5px;z-index: 10;color: #888;}
+#table{position: relative;margin:0 0 0 180px;padding:25px;width: 700px;background: #fff;box-shadow: 0 0px 5px 2px #ededed;}
 .menu1>li{width: 300px;height: 230px;background: #cfcfcf;display: inline-block;margin: 10px 0 30px 40px;color: #232;}
 .menu1>li:hover{cursor: pointer;}
 .menu1>li>div{width: 300px;height: 200px;background: #eee;}

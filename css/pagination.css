@@ -8,19 +8,20 @@
 .pagination a, .pagination span {
     display: inline-block;
     padding: 0.1em 0.4em;
-    margin-right: 5px;
+    margin-right: 10px;
 	margin-bottom: 5px;
 }
 
 .pagination .current {
     background: #26B;
     color: #fff;
-	border: none;/*1px solid #AAE*/
+	border-radius: 10px;/*1px solid #AAE*/
 }
 
 .pagination .current.prev, .pagination .current.next{
 	color:#999;
 	border-color:#999;
 	background:#fff;
+	border: 1px solid #26B
 }
 
