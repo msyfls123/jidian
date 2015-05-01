@@ -23,6 +23,10 @@ $(document).ready(function(){
 		function change(cur,next){
 			if (cur==next) {
 				location.replace("#"+window.flag);
+			}
+		}
+		window.onhashchange=function(){
+			window.location.reload()
 		}
 		change(0,0)
 });
