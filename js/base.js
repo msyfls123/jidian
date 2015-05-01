@@ -1,9 +1,12 @@
 var menuArray=new Array(0,0,0,0,0,0,0,0,0,0);
 var menuList1=[["学院概况","学院简介","党委班子","行政班子","组织机构","办公电话","三级单位"],
-			   ["师资队伍","学生工作"],
+			   ["师资队伍","电子信息工程","机械设计制造及其自动化","工业设计","通信工程"],
 			   ["学院概况","学生工作"]
 			  ];
 $(document).ready(function(){
+	for (var i = 0; i <= menuList1.length - 1; i++) {
+		$("#guide")
+	};
 	$("#guide li").each(function(i){
 		var step=i*96;
 		var delayTime=200;
