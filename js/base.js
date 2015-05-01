@@ -9,12 +9,14 @@ var menuList1=[["学院概况","学院简介","党委班子","行政班子","组
 			   ["学生组织","学生党建","奖助贷","学生风采","校友风采","招生就业"],
 			   ["下载专区","本科生信息","研究生信息","人事信息","科研信息"]
 			  ];
+window.flag=0;
 $(document).ready(function(){
+	/*显示导航栏和下拉菜单*/
 	for (var i = 0; i <= menuList1.length - 1; i++) {
-		$("#guide>ul").append("<li><a href='menu/section.html#"+(i+1)+"'>"+menuList1[i][0]+"</a></li>");
+		$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 		$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
 		for (var j = 1; j <= menuList1[i].length-1; j++) {
-			$(".menu:eq("+(i+1)+")>ul").append("<li><a href='menu/section.html#"+(i+1)+j+"'>"+menuList1[i][j]+"</a></li>");
+			$(".menu:eq("+(i+1)+")>ul").append("<a href='menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
 		};
 	};
 	$("#guide li").each(function(i){
@@ -39,7 +41,8 @@ $(document).ready(function(){
 			$("#con").mouseleave(function(){			
 				$(".menu ul:eq("+i+")").stop().slideUp(delayTime,function(){menuArray[i]=0;});
 				$("#guide li:eq("+i+")").removeClass("pick");
-				$("#fly").stop().animate({left:"0px"},delayTime);
+				$("#guide li:eq("+window.flag+")").addClass("pick");
+				$("#fly").stop().animate({left:window.flag*96+"px"},delayTime);
 			});
 		});
 	});
@@ -51,29 +54,39 @@ $(document).ready(function(){
 		$(this).mouseleave(function(){
 			$(this).stop(true,false).animate({top:"0px"},500);
 		})
-	})
+	});
+	if (location.hash) {
+		window.flag=location.hash.slice(1,2);
+		$("#guide li:eq("+window.flag+")").addClass("pick");
+		$("#fly").stop().css({left:window.flag*96+"px"});
+	}else{
+		$("#guide li:eq("+window.flag+")").addClass("pick");
+		$("#fly").stop().css({left:window.flag*96+"px"});
+	}
 });
-function addFavorite2() {
-    var url = window.location;
-    var title = document.title;
-    var ua = navigator.userAgent.toLowerCase();
-    if (ua.indexOf("360se") > -1) {
-        alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
-    }
-    else if (ua.indexOf("msie 8") > -1) {
-        window.external.AddToFavoritesBar(url, title); //IE8
-    }
-    else if (document.all) {
-  try{
-   window.external.addFavorite(url, title);
-  }catch(e){
-   alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
-  }
-    }
-    else if (window.sidebar) {
-        window.sidebar.addPanel(title, url, "");
-    }
-    else {
-  alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
-    }
+
+	//收藏首页
+	function addFavorite2() {
+	    var url = window.location;
+	    var title = document.title;
+	    var ua = navigator.userAgent.toLowerCase();
+	    if (ua.indexOf("360se") > -1) {
+	        alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+	    }
+	    else if (ua.indexOf("msie 8") > -1) {
+	        window.external.AddToFavoritesBar(url, title); //IE8
+	    }
+	    else if (document.all) {
+	  try{
+	   window.external.addFavorite(url, title);
+	  }catch(e){
+	   alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+	  }
+	    }
+	    else if (window.sidebar) {
+	        window.sidebar.addPanel(title, url, "");
+	    }
+	    else {
+	  alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+	    }
 }

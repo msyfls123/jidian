@@ -2,6 +2,7 @@
 #info{position:relative;margin:20px auto;width:100%;height:300px;background:#14344a;overflow: hidden;}
 #ban{width:600px;height:300px;background:#fff;overflow:hidden;position:relative;display:inline-block;z-index:10;margin:0}
 #img{width:3000px;height:300px;position:absolute;left:0}
+#img img{display: inline-block;}
 #ban ul{position:absolute;top:270px;left:50%;width:140px;margin-left:-70px;text-align:center}
 #ban li{display:inline-block;width:7px;height:7px;border-radius:50%;border:1px solid #fff;margin:1px;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
 #ban li:hover{background-color:#fff;cursor:pointer}
