@@ -12,13 +12,23 @@ var menuList1=[["学院概况","学院简介","党委班子","行政班子","组
 window.flag=0;
 $(document).ready(function(){
 	/*显示导航栏和下拉菜单*/
-	for (var i = 0; i <= menuList1.length - 1; i++) {
-		$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
-		$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
-		for (var j = 1; j <= menuList1[i].length-1; j++) {
-			$(".menu:eq("+(i+1)+")>ul").append("<a href='menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
+		if (!location.hash) {
+		for (var i = 0; i <= menuList1.length - 1; i++) {
+			$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
+			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
+			for (var j = 1; j <= menuList1[i].length-1; j++) {
+				$(".menu:eq("+(i+1)+")>ul").append("<a href='menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
+			};
 		};
-	};
+	}else{
+		for (var i = 0; i <= menuList1.length - 1; i++) {
+			$("#guide>ul").append("<a href='../menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
+			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
+			for (var j = 1; j <= menuList1[i].length-1; j++) {
+				$(".menu:eq("+(i+1)+")>ul").append("<a href='../menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
+			};
+		};
+	}
 	$("#guide li").each(function(i){
 		var step=i*96;
 		var delayTime=200;
