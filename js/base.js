@@ -10,6 +10,16 @@ var menuList1=[["学院概况","学院简介","党委班子","行政班子","组
 			   ["下载专区","本科生信息","研究生信息","人事信息","科研信息"]
 			  ];
 window.flag=0;
+function setGuide(){
+	if (location.hash) {
+		window.flag=location.hash.slice(1,2);
+		$("#guide li:eq("+window.flag+")").addClass("pick");
+		$("#fly").stop().css({left:window.flag*96+"px"});
+	}else{
+		$("#guide li:eq("+window.flag+")").addClass("pick");
+		$("#fly").stop().css({left:window.flag*96+"px"});
+	}
+}
 $(document).ready(function(){
 	/*显示导航栏和下拉菜单*/
 		if (!location.hash) {
@@ -55,6 +65,7 @@ $(document).ready(function(){
 				$("#fly").stop().animate({left:window.flag*96+"px"},delayTime);
 			});
 		});
+		setGuide();
 	});
 		/*社交应用分享*/
 	$("#popular img").each(function(i){
@@ -65,14 +76,6 @@ $(document).ready(function(){
 			$(this).stop(true,false).animate({top:"0px"},500);
 		})
 	});
-	if (location.hash) {
-		window.flag=location.hash.slice(1,2);
-		$("#guide li:eq("+window.flag+")").addClass("pick");
-		$("#fly").stop().css({left:window.flag*96+"px"});
-	}else{
-		$("#guide li:eq("+window.flag+")").addClass("pick");
-		$("#fly").stop().css({left:window.flag*96+"px"});
-	}
 });
 
 	//收藏首页
