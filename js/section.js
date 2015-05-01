@@ -76,9 +76,14 @@ $(document).ready(function(){
 				location.replace("#"+window.flag);
 			}
 		}
-		window.onhashchange=function(){
+		window.onhashchange=function(){changeIt()};
+
+		function changeIt(){
 			setGuide();
 			displayIndex();
+			document.title=menuList1[window.flag-1][0];
+			$("#titleTop span").text(menuList1[window.flag-1][0]);
 		}
+		changeIt();
 
 });
