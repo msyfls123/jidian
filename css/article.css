@@ -28,3 +28,4 @@ h1{color: #353C44;padding-left: 10px;margin-bottom:20px;font-weight: bold;font-s
 #reminder li span:nth-child(2){color: #14344A;display: inline-block;width: 100%}
 #backTop{display:none;position:fixed;width:60px;height:62px;bottom:100px;left:50%;margin-left:520px;background: url(../img/rocket.png) no-repeat 0 0;}
 #backTop:hover{background-position: 100% 0;cursor: pointer;};
+#msg{margin-left:10px; color:green; border:1px solid #3c3; background:url(../img/checkmark.png) no-repeat 2px 3px; padding:3px 6px 3px 20px}

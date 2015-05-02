@@ -23,6 +23,20 @@ function setTitle2(){
 				$("#title span:eq(2)").text("");
 			}
 }
+
+function getText(){
+	var remindText=new Array();
+	remindText.push($("#reminder>span:first-child").text());
+	for(var i=0;i<=$("#reminder ul li span").length-1;i++){
+		if(i%2==0){
+			remindText.push($("#reminder ul li span:eq("+i+")").text()+": ");
+		}else{
+			remindText.push($("#reminder ul li span:eq("+i+")").text());
+		}
+	}
+	return remindText.join("\n");
+}
+
 $(document).ready(function(){
 	//页面滚动显示小火箭
 	function scrollEvent3(){ 
@@ -61,4 +75,13 @@ $(document).ready(function(){
 		setGuide();
 		displayIndex2();
 		setTitle2();
+
+		$("#reminder span:eq(1)").zclip({
+		path: '../js/ZeroClipboard.swf',
+		copy: getText(),
+		afterCopy: function(){
+			$("#reminder>span:nth-child(2)").css("color",'#ccc');
+			$("#reminder span:eq(1)").after($("<span id='msg'></span>")).text("复制成功").fadeOut(2000);
+		}
+	});
 });
