@@ -4,7 +4,7 @@ function displayIndex2(){    //显示左侧目录
 	$("#nav ul").empty();
 	if(!isNaN(Number(window.flag))){
 		for (var i = 1; i <= menuList1[window.flag-1].length-1; i++) {
-			$("#nav ul").append("<a href='../menu/section.html#"+(window.flag)+i+"'><li><p>"+menuList1[window.flag-1][i]+"</p></li></a>")
+			$("#nav ul").append("<a target='_blank' href='../menu/section.html#"+(window.flag)+i+"'><li><p>"+menuList1[window.flag-1][i]+"</p></li></a>")
 		};
 	}else{
 		var indexGroup=window.flag.charCodeAt(0)-87;
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		$(window).scroll(function(){scrollEvent1();scrollEvent2();scrollEvent3();});   //注册固定导航栏事件
 
 		$("#backTop").click(function(){ 
-			$('body').animate({scrollTop:"0px"}, 1000); return false;
+			$('body,html').animate({scrollTop:"0px"}, 1000); return false;
 		});
 		window.flag=index.slice(0,1);
 		setGuide();
