@@ -35,7 +35,8 @@ function setGuide(){
 }
 $(document).ready(function(){
 	/*显示导航栏和下拉菜单*/
-		if (!location.hash) {
+	var locationStr=location.toString();
+		if (!location.hash&&locationStr.indexOf('index')!=-1) {
 		for (var i = 0; i <= 8; i++) {
 			$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
@@ -80,7 +81,7 @@ $(document).ready(function(){
 				$("#fly").stop().animate({left:start*96+"px"},delayTime);
 			});
 		});
-		setGuide();
+		//setGuide();
 	});
 		/*社交应用分享*/
 	$("#popular img").each(function(i){

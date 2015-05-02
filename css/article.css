@@ -1,19 +1,22 @@
-h1{text-align: center;color: #353C44;font-weight: bold;}
-#attribute{text-align: center;margin:50px 0 20px 0;font-size: 16px;}
-#attribute li{display:inline-block;text-align: center;margin:0 70px 0 70px;list-style-type: circle;}
-#attribute li:hover{text-decoration: underline;cursor:pointer;color: #fda900;}
-#body{width: 720px;position: relative;margin: 0 0 30px 0;font-size: 16px;}
-#body p{text-indent: 24px;font-size: 16px;font-family: 宋体;}
-#body img{display:block;margin: 10px auto;}
+h1{color: #353C44;padding-left: 10px;margin-bottom:20px;font-weight: bold;font-size: 20px;border-left: 3px solid #fda900;border-bottom: 1px solid #ccc;}
+#attribute{font-size: 14px;font-weight: 500;color: #656C74;}
+#attribute li{display:inline-block;margin:5px;}
+#attribute li:hover{cursor:pointer;color: #fda900;}
+#body{width: 680px;position: relative;margin: 0 0 30px 10px;font-size: 15px;}
+#body p{text-indent: 24px;font-size: 15px;font-family: 宋体;}
+#body img{display:block;margin: 20px auto;}
 #body img~span{position:relative;display:block;width: 200px;left: 50%;margin-left: -100px;text-align: center;}
 #body table{margin: 0px auto;text-align: center;padding: 5px;font-size: 16px;}
 #body table th{color: #369;border: 1px solid #09c;padding: 5px;text-align: center;}
 #body table td{border: 1px solid #09c;padding: 5px;}
 .headTable{position:relative;display:block;width: 200px;left: 50%;text-align: center;margin: 20px 0 10px -100px;}
-#shift{margin: 20px 0 10px 10px;}
-#shift li{font-size: 13px;line-height: 17px;margin-bottom: 10px;list-style: none;width: 350px;}
-#shift li>span:first-child{display: inline-block;background: #336699;padding: 2px 5px 2px 5px;margin: 0 20px 0 30px;line-height: 16px;text-align: center;border-radius: 5px;color: #fff;}
-#shift li>span:last-child{text-align: right;font-family: Courier;display: inline-block;float: right;}
+#shift{width:750px;margin:100px 0 -30px -25px;}
+#shift li{display:inline-block;font-size: 13px;margin:0 0 10px 0;list-style: none;width: 352px;padding:10px;}
+#shift li:hover{background: #fda900;color: #fff;cursor: pointer;}
+#shift li:first-child{border-right: 1px solid #ccc;}
+#shift li>span{display: block;text-align: center;}
+#shift li>span:first-child{padding: 10px 5px 10px 5px;line-height: 16px;text-align: center;font-size: 18px;}
+#shift li>span:last-child{font-family: Courier;}
 #reminder{width: 610px;border-top: 2px solid #36404D;border-bottom: 2px solid #36404D;padding: 10px;margin: 30px auto;background: #eee;}
 #reminder>span:first-child{color: #36404D;font-weight: bold;font-size: 14px;}
 #reminder>span:nth-child(2){color: #36404D;font-weight: bold;border: 1px dotted #36404D;font-size: 14px;padding: 2px;float: right;}
@@ -23,3 +26,5 @@ h1{text-align: center;color: #353C44;font-weight: bold;}
 #reminder li span{margin-right: 20px;}
 #reminder li span:first-child{color: #000;font-weight: bold;}
 #reminder li span:nth-child(2){color: #14344A;display: inline-block;width: 100%}
+#backTop{display:none;position:fixed;width:60px;height:62px;bottom:100px;left:50%;margin-left:520px;background: url(../img/rocket.png) no-repeat 0 0;}
+#backTop:hover{background-position: 100% 0;cursor: pointer;};

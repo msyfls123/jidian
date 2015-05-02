@@ -43,6 +43,12 @@ function displayIndex(){    //显示左侧目录
 	}else{
 		var indexGroup=window.flag.charCodeAt(0)-87;
 		window.flag=indexGroup;
+	};
+	if (Number(location.hash.substr(1))<10) {
+				displayMenu(0);
+	}else{
+		displayMenu(1);
+		$("#nav>ul>li:eq("+(location.hash.slice(2,3)-1)+")").addClass("active");
 	}
 }
 function displayPic(){       //显示图片
@@ -56,6 +62,22 @@ function displayPic(){       //显示图片
 				location.hash="#"+window.flag+(i+1);
 			});
 	});
+}
+function setTitle1(){
+	//设置title
+	if (location.hash.slice(2,3)!="") {
+		document.title=menuList1[window.flag-1][location.hash.slice(2,3)];
+	}else{
+		document.title=menuList1[window.flag-1][0];
+	}
+	//设置大标题
+	$("#titleTop span").text(menuList1[window.flag-1][0]);
+	$("#title span:eq(1)").text(menuList1[window.flag-1][0]);//设置目录条
+	if (location.hash.substr(1)>10) {
+		$("#title span:eq(2)").text("- "+menuList1[window.flag-1][location.hash.slice(2,3)]);
+	}else{
+		$("#title span:eq(2)").text("");
+	}
 }
 $(document).ready(function(){
 		//页面滚动固定标题和左侧导航栏
@@ -86,6 +108,7 @@ $(document).ready(function(){
 			setGuide();//设置上方导航栏
 			if(!isNaN(Number(window.flag))){displayPic()};
 			displayIndex();//设置左侧导航栏
+			setTitle1()
 			$("#nav li").each(function(i){  //点左侧导航栏进二级菜单
 					$(this).click(function(){
 						if ($(this).hasClass("active")) {
@@ -99,21 +122,9 @@ $(document).ready(function(){
 						}	
 					});
 			});
-			document.title=menuList1[window.flag-1][0];//设置title
-			$("#titleTop span").text(menuList1[window.flag-1][0]);//设置大标题
-			$("#title span:eq(1)").text(menuList1[window.flag-1][0]);//设置目录条
-			if (location.hash.substr(1)>10) {
-				$("#title span:eq(2)").text("- "+menuList1[window.flag-1][location.hash.slice(2,3)]);
-			}else{
-				$("#title span:eq(2)").text("");
-			}
+			
 
-			if (Number(location.hash.substr(1))<10) {
-				displayMenu(0);
-			}else{
-				displayMenu(1);
-				$("#nav>ul>li:eq("+(location.hash.slice(2,3)-1)+")").addClass("active");
-			}
+			
 			//加载Ajax
 			var locate="ch"+location.hash.slice(1)+".html";
 			$("#hiddenresult").load(locate, null, function(){var num_entries=getNum_entries();$("#Pagination").pagination(num_entries, opt);});
