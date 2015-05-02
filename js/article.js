@@ -31,10 +31,10 @@ function getText(){
 		if(i%2==0){
 			remindText.push($("#reminder ul li span:eq("+i+")").text()+": ");
 		}else{
-			remindText.push($("#reminder ul li span:eq("+i+")").text());
+			remindText.push($("#reminder ul li span:eq("+i+")").text()+"\n");
 		}
 	}
-	return remindText.join("\n");
+	return remindText.join("");
 }
 
 $(document).ready(function(){
