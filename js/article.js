@@ -81,7 +81,7 @@ $(document).ready(function(){
 		copy: getText(),
 		afterCopy: function(){
 			$("#reminder>span:nth-child(2)").css("color",'#ccc');
-			$("#reminder span:eq(1)").after($("<span id='msg'></span>")).text("复制成功");
+			$("#reminder span:eq(1)").after("<span id='msg'>复制成功</span>");
 			$("#msg").fadeOut(2000);
 		}
 	});
