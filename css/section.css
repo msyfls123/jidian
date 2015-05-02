@@ -6,7 +6,7 @@ body{background: url(../img/bg3.jpg) 50% 300px no-repeat;}
 #nav>ul li{padding:7px 0 7px 0;text-indent: 25px;font-size: 16px;position: relative;color: #444;}
 #nav>ul li:hover{background-color:#fda900;cursor: pointer;color: #fff;}
 #nav>ul li.active{background-color:rgba(255,255,255,0.5);cursor: pointer;color: #333;}
-#nav>ul li.active:before{content: url(../img/dot.png);position: absolute;left: 120px}
+#nav>ul li.active:before{content: url(../img/icon.png);position: absolute;left: 20px;top:-6px;width:50px;height:50px;clip:rect(20px 131px 30px 119px)}
 #title{position: absolute;left: 180px;top: 10px;padding: 5px;z-index: 10;color: #888;}
 #table{position: relative;margin:0 0 0 180px;padding:25px;width: 700px;background: #fff;box-shadow: 0 0px 5px 2px #ddd;}
 .menu1>li{width: 300px;height: 230px;background: #cfcfcf;display: inline-block;margin: 10px 0 30px 40px;color: #232;}
