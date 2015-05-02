@@ -26,7 +26,7 @@ function setTitle2(){
 
 function getText(){
 	var remindText=new Array();
-	remindText.push($("#reminder>span:first-child").text());
+	remindText.push($("#reminder>span:first-child").text()+"\n");
 	for(var i=0;i<=$("#reminder ul li span").length-1;i++){
 		if(i%2==0){
 			remindText.push($("#reminder ul li span:eq("+i+")").text()+": ");
@@ -84,5 +84,5 @@ $(document).ready(function(){
 			$("#reminder span:eq(1)").after("<span id='msg'>复制成功</span>");
 			$("#msg").fadeOut(2000);
 		}
-	});
+		});
 });
