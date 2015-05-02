@@ -7,23 +7,36 @@ var menuList1=[["学院概况","学院简介","党委班子","行政班子","组
 			   ["实验室建设","教学实验室","开发实验室","实验室仪器","实验室条例"],
 			   ["党建工作","基层组织","党建活动","活动剪影","工会工作"],
 			   ["学生组织","学生党建","奖助贷","学生风采","校友风采","招生就业"],
-			   ["下载专区","本科生信息","研究生信息","人事信息","科研信息"]
+			   ["下载专区","本科生信息","研究生信息","人事信息","科研信息"],
+			   ["学院新闻"],
+			   ["学工动态"],
+			   ["学术学科"],
+			   ["学生工作"],
+			   ["本科教育"],
+			   ["研究生教育"],
+			   ["实验室建设"],
+			   ["党建行政"],
 			  ];
 window.flag=0;
 function setGuide(){
 	if (location.hash) {
 		window.flag=location.hash.slice(1,2);
-		$("#guide li:eq("+window.flag+")").addClass("pick");
-		$("#fly").stop().css({left:window.flag*96+"px"});
+		if(Number(window.flag)==NaN){
+			$("#guide li:eq(0)").addClass("pick");
+			$("#fly").stop().css({"left":"0px"});
+		}else{
+			$("#guide li:eq("+window.flag+")").addClass("pick");
+			$("#fly").stop().css({"left":window.flag*96+"px"});
+		}
 	}else{
 		$("#guide li:eq("+window.flag+")").addClass("pick");
-		$("#fly").stop().css({left:window.flag*96+"px"});
+		$("#fly").stop().css({"left":window.flag*96+"px"});
 	}
 }
 $(document).ready(function(){
 	/*显示导航栏和下拉菜单*/
 		if (!location.hash) {
-		for (var i = 0; i <= menuList1.length - 1; i++) {
+		for (var i = 0; i <= 8; i++) {
 			$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
 			for (var j = 1; j <= menuList1[i].length-1; j++) {
@@ -31,7 +44,7 @@ $(document).ready(function(){
 			};
 		};
 	}else{
-		for (var i = 0; i <= menuList1.length - 1; i++) {
+		for (var i = 0; i <= 8; i++) {
 			$("#guide>ul").append("<a href='../menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
 			for (var j = 1; j <= menuList1[i].length-1; j++) {
@@ -58,11 +71,13 @@ $(document).ready(function(){
 		});
 		/*鼠标移出导航栏 */
 		$(this).mouseleave(function(){
-			$("#con").mouseleave(function(){			
+			$("#con").mouseleave(function(){
+				var start=0;
+				if(window.flag<=9){start=window.flag};			
 				$(".menu ul:eq("+i+")").stop().slideUp(delayTime,function(){menuArray[i]=0;});
 				$("#guide li:eq("+i+")").removeClass("pick");
-				$("#guide li:eq("+window.flag+")").addClass("pick");
-				$("#fly").stop().animate({left:window.flag*96+"px"},delayTime);
+				$("#guide li:eq("+start+")").addClass("pick");
+				$("#fly").stop().animate({left:start*96+"px"},delayTime);
 			});
 		});
 		setGuide();
