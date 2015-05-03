@@ -3,7 +3,8 @@ h1{color: #353C44;padding-left: 10px;margin-bottom:20px;font-weight: bold;font-s
 #attribute li{display:inline-block;margin:5px;}
 #attribute li:hover{cursor:pointer;color: #fda900;}
 #body{width: 680px;position: relative;margin: 0 0 30px 10px;font-size: 15px;}
-#body p{text-indent: 24px;font-size: 15px;font-family: 宋体;line-height: 20px;}
+#body p{text-indent: 24px;font-size: 15px;line-height: 20px;margin:15px 0 15px 0;}
+#body a:hover{color: #fda900;}
 #body img{display:block;margin: 20px auto;}
 #body img~span{position:relative;display:block;width: 200px;left: 50%;margin-left: -100px;text-align: center;}
 #body table{margin: 0px auto;text-align: center;padding: 5px;font-size: 16px;}
