@@ -37,10 +37,12 @@ $(document).ready(function(){
 			$("#slide").stop(false,false).fadeIn().animate({top:dis+"px"},200);
 		})
 	})
+	
 	$(".newsbox:eq(0) ul").mouseleave(function(){
 			$("#slide").stop(true,false).fadeOut();
 	})
-		$(".newsbox:eq(1) li").each(function(i){
+
+	$(".newsbox:eq(1) li").each(function(i){
 		var dis=48+27*i;
 		$(this).mouseenter(function(){
 			$("#slide").stop(false,false).fadeIn().animate({top:dis+"px"},200);
