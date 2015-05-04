@@ -77,13 +77,13 @@
 			.title1{color:#222;margin-top:40px;font-size:18px;font-weight:bold}
 			.title2{color:#999;margin:15px 20px 0;}
 			.title3{color:#666;margin:15px 20px 0;border-left:3px solid #fad900;border-bottom:1px solid #fad900;font-size:14px;padding-left:5px;}
-			.plainText{color:#222;font-size:15px;margin-top:3px;text-indent: 30px;}
+			.plainText{color:#222;font-size:13px;margin-top:3px;text-indent: 30px;}
 			.plainList{margin:10px 0 0 20px;}
-			.plainList li{color:#222;margin-left:10px;font-size:15px;display:inline-block}
-			.shortList{margin:10px 20px;color:#222;font-size:15px;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;}
+			.plainList li{color:#222;margin-left:10px;font-size:13px;display:inline-block}
+			.shortList{margin:10px 20px;color:#222;font-size:13px;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;}
 			.shortList ol{text-indent:10px;}
 			.shortList ol ol{margin-left:20px;}
-			.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:10px;line-height:24px;}
+			.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:13px;line-height:24px;}
 			.longList .normal{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:15px;line-height:24px;}
 			#quickLink{position: absolute;left: 750px;top: 160px;width: 100px;background-color: rgba(200,200,200,0.5);padding:20px 30px;}
 			#quickLink ul{list-style: circle;text-indent: 10px;color: #333;}
@@ -494,7 +494,7 @@
 			};
 			$("#quickLink li").each(function(i){
 				$(this).click(function(){
-					$('html, body').animate({scrollTop: $(".title1:eq("+i+")").offset().top-70}, 1000); return false;
+					$('html, body').animate({scrollTop: $(".title1:eq("+i+")").offset().top-20}, 1000); return false;
 				})
 			})
 
