@@ -28,7 +28,7 @@ function setGuide(){
 			$("#guide li:eq("+window.flag+")").addClass("pick");
 			$("#fly").stop().css({"left":window.flag*96+"px"});
 		}
-		if(window.flag==1&&location.hash.slice(2,3)<6){
+		if(window.flag==1&&location.hash.slice(2,3)<6&&location.hash.slice(2,3)!=0){
 			window.location.replace("../article/article1"+location.hash.slice(2,3)+"_0.html")
 		}
 	}else{

@@ -85,7 +85,7 @@
 			.shortList ol ol{margin-left:20px;}
 			.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:13px;line-height:24px;}
 			.longList .normal{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:15px;line-height:24px;}
-			#quickLink{position: absolute;left: 750px;top: 160px;width: 100px;background-color: rgba(200,200,200,0.5);padding:20px 30px;}
+			#quickLink{position: absolute;left: 750px;top: 160px;width: 90px;background-color: rgba(200,200,200,0.5);padding:20px 30px;font-size: 13px;}
 			#quickLink ul{list-style: circle;text-indent: 10px;color: #333;}
 			#quickLink ul li:hover{color: #39c;cursor: pointer;}
 			#quickLink ul li.get{color: #39c;}
@@ -508,25 +508,24 @@
 					$("#quickLink").css({"position":"absolute","top":"160px","left":"750px","margin-left":"0px"});
 				}
 			};
-			/*var titleH=new Array();
+			
+			var titleH=new Array();
 				for (var i = 0; i <= $(".title1").length; i++) {
-					alert($(".title1:eq("+i+")").offset().top)
-					titleH[i]=$(".title1:eq("+i+")").offset().top;
+					titleH[i]=$(".title1:eq("+i+")").offsetTop;
 				};
-			titleH[$(".title1").length]=100000;
-			alert(titleH)
+				titleH[$(".title1").length]=100000;
+				$("#quickLink li:eq(0)").addClass("get");
 			function scrollEvent5(){            //选择右侧锚点
 				var scroH = $(this).scrollTop();
-				for (var i = $(".title1").length - 1; i >= 0; i--) {
+				for (var i = 0; i <= $(".title1").length - 1; i++) {
 					if(scroH>=titleH[i]&&scroH<titleH[i+1]){
-						alert()
 						$("#quickLink li:eq("+i+")").addClass("get");
 					}else{
-						$("#quickLink li:eq("+i+")").addClass("get");
+						$("#quickLink li:eq("+i+")").removeClass("get");
 					}
 				};
-			};*/
-		$(window).scroll(function(){scrollEvent4();});   //注册固定导航栏事件
+			};
+		$(window).scroll(function(){scrollEvent4();scrollEvent5();});   //注册固定导航栏事件
 		</script>
 	</body>
 </html>
