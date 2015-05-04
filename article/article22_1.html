@@ -74,9 +74,9 @@
 			#infopad tr td{width:100px;text-align:left;}
 			#infopad tr>td:nth-child(odd){border:none;color:#999;}
 			#infopad tr>td:nth-child(even){border:none;}
-			.title1{color:#222;margin-top:40px;width:340px;font-size:18px;font-weight:bold}
-			.title2{color:#999;margin:15px 20px 0;width:340px;}
-			.title3{color:#666;margin:15px 20px 0;width:340px;border-left:3px solid #fad900;border-bottom:1px solid #fad900;font-size:14px;padding-left:5px;}
+			.title1{color:#222;margin-top:40px;font-size:18px;font-weight:bold}
+			.title2{color:#999;margin:15px 20px 0;}
+			.title3{color:#666;margin:15px 20px 0;border-left:3px solid #fad900;border-bottom:1px solid #fad900;font-size:14px;padding-left:5px;}
 			.plainText{color:#222;font-size:15px;margin-top:3px;text-indent: 30px;}
 			.plainList{margin:10px 0 0 20px;}
 			.plainList li{color:#222;margin-left:10px;font-size:15px;display:inline-block}
@@ -88,6 +88,7 @@
 			#quickLink{position: absolute;left: 750px;top: 160px;width: 100px;background-color: rgba(200,200,200,0.5);padding:20px 30px;}
 			#quickLink ul{list-style: circle;text-indent: 10px;color: #333;}
 			#quickLink ul li:hover{color: #39c;cursor: pointer;}
+			#quickLink ul li.get{color: #39c;}
 			#quickLink ul li.s{list-style: none;text-indent: 10px;color: #666;font-size: 12px;}
 			#quickLink ul li.s:hover{color: #39c;cursor: pointer;}
 		</style>
@@ -498,14 +499,33 @@
 			})
 
 			var quickH = $("#quickLink").offset().top;
-			function scrollEvent4(){            //固定标题
-			var scroH = $(this).scrollTop();
-			if(scroH>=quickH-30){
-				$("#quickLink").css({"position":"fixed","top":"60px","left":"50%","margin-left":"485px"});
-			}else if(scroH<quickH-30){
-				$("#quickLink").css({"position":"absolute","top":"160px","left":"750px","margin-left":"0px"});
-			}
-		};
+
+			function scrollEvent4(){            //固定右侧锚点
+				var scroH = $(this).scrollTop();
+				if(scroH>=quickH-30){
+					$("#quickLink").css({"position":"fixed","top":"60px","left":"50%","margin-left":"485px"});
+				}else if(scroH<quickH-30){
+					$("#quickLink").css({"position":"absolute","top":"160px","left":"750px","margin-left":"0px"});
+				}
+			};
+			/*var titleH=new Array();
+				for (var i = 0; i <= $(".title1").length; i++) {
+					alert($(".title1:eq("+i+")").offset().top)
+					titleH[i]=$(".title1:eq("+i+")").offset().top;
+				};
+			titleH[$(".title1").length]=100000;
+			alert(titleH)
+			function scrollEvent5(){            //选择右侧锚点
+				var scroH = $(this).scrollTop();
+				for (var i = $(".title1").length - 1; i >= 0; i--) {
+					if(scroH>=titleH[i]&&scroH<titleH[i+1]){
+						alert()
+						$("#quickLink li:eq("+i+")").addClass("get");
+					}else{
+						$("#quickLink li:eq("+i+")").addClass("get");
+					}
+				};
+			};*/
 		$(window).scroll(function(){scrollEvent4();});   //注册固定导航栏事件
 		</script>
 	</body>
