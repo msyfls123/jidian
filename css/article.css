@@ -27,7 +27,7 @@ h1{color: #353C44;padding-left: 10px;margin-bottom:20px;font-weight: bold;font-s
 #reminder li span{margin-right: 20px;}
 #reminder li span:first-child{color: #000;font-weight: bold;}
 #reminder li span:nth-child(2){color: #14344A;display: inline-block;width: 100%}
-#backTop{display:none;position:fixed;width:60px;height:62px;bottom:100px;left:50%;margin-left:520px;background: url(../img/icon.png) no-repeat 0px -60px;}
+#backTop{display:none;position:fixed;width:60px;height:62px;bottom:60px;left:50%;margin-left:550px;background: url(../img/icon.png) no-repeat 0px -60px;}
 #backTop:hover{background-position: -60px -60px;cursor: pointer;}
 #msg{position:absolute;top:-35px;right:7px;margin-left:10px; color:green; border:1px solid #3c3;padding:2px 4px 2px 30px;border-radius: 5px;}
 #msg:before{content: url(../img/icon.png);position:absolute;clip: rect(0 110px 18px 92px);left: -87px;top:4px;}
