@@ -69,29 +69,7 @@
 		</ul>
 	</h1>
 	<div id="body">
-		<style type="text/css">
-			#infopad{width:450px;position: relative;left: -120px};
-			#infopad tr td{width:100px;text-align:left;}
-			#infopad tr>td:nth-child(odd){border:none;color:#999;}
-			#infopad tr>td:nth-child(even){border:none;}
-			.title1{color:#222;margin-top:40px;font-size:18px;font-weight:bold}
-			.title2{color:#999;margin:15px 20px 0;}
-			.title3{color:#666;margin:15px 20px 0;border-left:3px solid #fad900;border-bottom:1px solid #fad900;font-size:14px;padding-left:5px;}
-			.plainText{color:#222;font-size:13px;margin-top:3px;text-indent: 30px;}
-			.plainList{margin:10px 0 0 20px;}
-			.plainList li{color:#222;margin-left:10px;font-size:13px;display:inline-block}
-			.shortList{margin:10px 20px;color:#222;font-size:13px;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;}
-			.shortList ol{text-indent:10px;}
-			.shortList ol ol{margin-left:20px;}
-			.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:13px;line-height:24px;}
-			.longList .normal{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:15px;line-height:24px;}
-			#quickLink{position: absolute;left: 750px;top: 160px;width: 90px;background-color: rgba(200,200,200,0.5);padding:20px 30px;font-size: 13px;}
-			#quickLink ul{list-style: circle;text-indent: 10px;color: #333;}
-			#quickLink ul li:hover{color: #39c;cursor: pointer;}
-			#quickLink ul li.get{color: #39c;}
-			#quickLink ul li.s{list-style: none;text-indent: 10px;color: #666;font-size: 12px;}
-			#quickLink ul li.s:hover{color: #39c;cursor: pointer;}
-		</style>
+		<link rel="stylesheet" href="../css/teacher.css" type="text/css">
 		<div id="quickLink">
 			<ul>
 			</ul>
@@ -420,8 +398,8 @@
 			<li class="shortList" style="text-indent:30px;">
 				丁华锋，工学博士，博士后，教授，博士生导师，德国“洪堡学者”，国家优秀青年科学基金获得者。获第1批中国博士后科学基金特别资助和第43批中国博士后科学基金一等资助；全国百篇优秀博士论文提名奖。主持主研国家自然科学基金，霍英东教育基金，教育部博士点基金，河北省自然科学基金及国家高技术863等项目。在国内外重要学术刊物和会议上发表论文60余篇，其中SCI，EI收录50余篇，出版Springer和高教社专著2部，获得计算机软件著作权18项，授权发明专利25项。国内外机械工程领域20多个一流期刊评审人。现为美国ASME（机械工程师协会）会员，中国机械工程协会高级会员。
 			</li>
-
 		</ul>
+		<script type="text/javascript" src="../js/teacher.js"></script>
 	</div>
 		<ul id="shift">
 			<a href="article16_1.html"><li><span>前一篇</span><span>研究所与实验中心</span><span>2015.5.3</span></li></a>
@@ -487,45 +465,5 @@
 		<script type="text/javascript" src="../js/base.js"></script>
 		<script type="text/javascript" src="../js/jquery.zclip.min.js"></script>
 		<script type="text/javascript" src="../js/article.js"></script>	
-		<script type="text/javascript">
-			$("#quickLink").prepend($("h1 span:eq(0)").text()+"<p>")
-			for (var i = 0; i <= $(".title1").length - 1; i++) {
-				$("#quickLink ul").append("<li>"+$(".title1:eq("+i+")").text()+"</li>");
-			};
-			$("#quickLink li").each(function(i){
-				$(this).click(function(){
-					$('html, body').animate({scrollTop: $(".title1:eq("+i+")").offset().top-20}, 1000); return false;
-				})
-			})
-
-			var quickH = $("#quickLink").offset().top;
-
-			function scrollEvent4(){            //固定右侧锚点
-				var scroH = $(this).scrollTop();
-				if(scroH>=quickH-30){
-					$("#quickLink").css({"position":"fixed","top":"60px","left":"50%","margin-left":"485px"});
-				}else if(scroH<quickH-30){
-					$("#quickLink").css({"position":"absolute","top":"160px","left":"750px","margin-left":"0px"});
-				}
-			};
-			
-			var titleH=new Array();
-				for (var i = 0; i <= $(".title1").length; i++) {
-					titleH[i]=$(".title1:eq("+i+")").offsetTop;
-				};
-				titleH[$(".title1").length]=100000;
-				$("#quickLink li:eq(0)").addClass("get");
-			function scrollEvent5(){            //选择右侧锚点
-				var scroH = $(this).scrollTop();
-				for (var i = 0; i <= $(".title1").length - 1; i++) {
-					if(scroH>=titleH[i]&&scroH<titleH[i+1]){
-						$("#quickLink li:eq("+i+")").addClass("get");
-					}else{
-						$("#quickLink li:eq("+i+")").removeClass("get");
-					}
-				};
-			};
-		$(window).scroll(function(){scrollEvent4();scrollEvent5();});   //注册固定导航栏事件
-		</script>
 	</body>
 </html>

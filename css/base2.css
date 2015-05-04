@@ -11,9 +11,9 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 #header input[type=search]:hover{background:#fff url(../img/icon.png) no-repeat -111px -34px}
 #header input[type=search]:focus{width:120px;padding-left:32px;color:#000;background:#fff url(../img/icon.png) no-repeat -111px -34px;cursor:auto;border-color:#6dcff6;-webkit-box-shadow:0 0 5px rgba(109,207,246,.5);-moz-box-shadow:0 0 5px rgba(109,207,246,.5);box-shadow:0 0 5px rgba(109,207,246,.5)}
 #top{background:#e9eae2 url(../img/bg3.jpg) no-repeat center 0px;width:100%;}
-.index{height: 518px;}
+/*.index{height: 527px;}*/
 #cube{width:124px;height:134px;background:#f8c255 url(../img/Logo.png) no-repeat 50% 75%;display:inline-block;}
-#top.index img{margin-bottom: 5px;}
+#top img{margin-bottom: 5px;}
 /*导航栏*/
 #guide{width:960px;height:48px;background-color:#f3f3f3;box-shadow:0 2px 10px 1px #ddd;margin-top:12px;position:relative}
 #guide li{width:95px;height:31px;display:inline-block;text-align:center;padding:14px 0 0 0;font-size:16px;color:#353c44;letter-spacing:-1px;font-weight:500}

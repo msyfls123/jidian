@@ -24,7 +24,7 @@ function setTitle2(){
 			}
 }
 
-function getText(){
+function getText(){                //获取reminder内的文本
 	var remindText=new Array();
 	remindText.push($("#reminder>span:first-child").text()+"\n");
 	for(var i=0;i<=$("#reminder ul li span").length-1;i++){
@@ -76,7 +76,7 @@ $(document).ready(function(){
 		displayIndex2();
 		setTitle2();
 
-		$("#reminder span:eq(1)").zclip({
+		$("#reminder span:eq(1)").zclip({        //复制到剪贴板功能
 		path: '../js/ZeroClipboard.swf',
 		copy: getText(),
 		afterCopy: function(){

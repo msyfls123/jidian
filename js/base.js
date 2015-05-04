@@ -19,7 +19,7 @@ var menuList1=[["学院概况","学院简介","党委班子","行政班子","组
 			  ];
 window.flag=0;
 function setGuide(){
-	if (location.hash) {
+	if (location.hash) {                          //根据hash值来显示导航栏
 		window.flag=location.hash.slice(1,2);
 		if(Number(window.flag)==NaN){
 			$("#guide li:eq(0)").addClass("pick");

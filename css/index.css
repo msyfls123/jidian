@@ -41,7 +41,7 @@
 .left div.newsbox{width: 220px;height: 100%}
 .contain{width:350px;height: 180px;position: absolute;overflow: hidden;}
 .tab{position: absolute;width: 1400px;}
-.right div.newsbox{width: 340px;height: 150px;}
+.right div.newsbox{width: 340px;height: 150px;vertical-align: top;}
 .test{width: 100%;height: 10px;background-color: #ddd;}
 .right{width:350px;margin: 35px 0 0 0}
 .unpick{background: none;box-shadow: none;border:none;font-size: 14px;}
