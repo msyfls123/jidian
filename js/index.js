@@ -63,7 +63,11 @@ $(document).ready(function(){
 		})
 	});
 	$(".newsbox").each(function(i){
-		var locate="news"+i+".html";
-		$(this).load(locate, null,null);
+			var locate="news"+i+".html";
+			$(this).load(locate, null,function(){
+				$(this).find("li").each(function(){
+				$(this).attr({"title": $(this).find("span:nth-last-child(2)").text()})
+			})
+		});
 	})
 })
