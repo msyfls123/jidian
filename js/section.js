@@ -72,7 +72,8 @@ function setTitle1(){
 	}
 	//设置大标题
 	$("#titleTop span").text(menuList1[window.flag-1][0]);
-	$("#title span:eq(1)").text(menuList1[window.flag-1][0]);//设置目录条
+	$("#title span:eq(0)").html("<a href=../index.htm>首页 -</a>");
+	$("#title span:eq(1)").html("<a href='../menu/section.html#"+window.flag+"'>"+menuList1[window.flag-1][0]+"</a>");//设置目录条
 	if (location.hash.substr(1)>10) {
 		$("#title span:eq(2)").text("- "+menuList1[window.flag-1][location.hash.slice(2,3)]);
 	}else{
@@ -94,7 +95,7 @@ $(document).ready(function(){
 		function scrollEvent2(){            //固定标题
 			var scroH = $(this).scrollTop();
 			if(scroH>=navH-30){
-				$("#title").css({"position":"fixed","top":"20px","left":"50%","margin-left":"-300px","background":"#fff"});
+				$("#title").css({"position":"fixed","top":"0px","left":"50%","margin-left":"-300px","background":"#fff","width":"100%"});
 			}else if(scroH<navH-30){
 				$("#title").css({"position":"absolute","top":"10px","left":"180px","margin-left":"0px","background":"none"});
 			}

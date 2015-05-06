@@ -4,7 +4,7 @@ $("#quickLink").prepend($("h1 span:eq(0)").text()+"<p>")    //获取文章标题
 				if ($(this).hasClass("title2")) {
 					$("#quickLink ul").append("<li class='s'>"+$(this).text()+"</li>");
 				}else if($(this).hasClass("title3")) {
-					$("#quickLink ul").append("<li class='ss'>"+$(this).text()+"</li>");
+					$("#quickLink ul").append("<li class='ss'>-"+$(this).text()+"</li>");
 				}else{
 					$("#quickLink ul").append("<li>"+$(this).text()+"</li>");
 				}

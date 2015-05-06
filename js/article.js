@@ -16,7 +16,8 @@ function displayIndex2(){    //显示左侧目录
 function setTitle2(){
 	document.title=$("#table h1 span:eq(0)").text();//设置title
 	$("#titleTop span").text(menuList1[window.flag-1][0]);//设置大标题
-	$("#title span:eq(1)").text(menuList1[window.flag-1][0]);//设置目录条
+	$("#title span:eq(0)").html("<a href=../index.htm>首页 -</a>");
+	$("#title span:eq(1)").html("<a href='../menu/section.html#"+window.flag+"'>"+menuList1[window.flag-1][0]+"</a>");//设置目录条
 	if (index.slice(1,2)!="") {
 				$("#title span:eq(2)").text("- "+menuList1[window.flag-1][index.slice(1,2)]);
 			}else{
