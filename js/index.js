@@ -9,6 +9,8 @@ $(document).ready(function(){
 		$("#img").stop().animate({left:LeftStep+"px"},1000);
 		$("#ban li:eq("+s+")").removeClass("cur");
 		$("#ban li:eq("+e+")").addClass("cur");
+		$("#banText li:eq("+s+")").removeClass("onPlay");
+		$("#banText li:eq("+e+")").addClass("onPlay");
 		imgT=e;		
 		e++;
 		t=setTimeout(function(){ImgCircle(imgT,e)},5000)
@@ -25,7 +27,7 @@ $(document).ready(function(){
 			$(this).addClass("now");
 			$("#news h2:eq("+(1-i)+")").removeClass("now");
 			$(".new-tab:eq("+i+")").fadeIn(500);
-			$(".new-tab:eq("+(1-i)+")").fadeOut(500);
+			$(".new-tab:eq("+(1-i)+")").hide();
 		})
 	});
 	/*新闻栏*/
