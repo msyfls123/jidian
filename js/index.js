@@ -21,6 +21,15 @@ $(document).ready(function(){
 	$("#ban").mouseenter(function(){clearTimeout(t);clearTimeout(Temp)});
 	$("#ban").mouseleave(function(){Temp=setTimeout(function(){ImgCircle(imgT,imgT+1)},3000)});
 	ImgCircle(0,0);
+	//加载新闻
+	$(".newsbox").each(function(i){
+			var locate="news"+i+".html";
+			$(this).load(locate, null,function(){
+				$(this).find("li").each(function(){
+				$(this).attr({"title": $(this).find("span:nth-last-child(2)").text()})
+			})
+		});
+	})
 	/*切换新闻与动态*/
 	$("#news h2").each(function(i){
 		$(this).hover(function(){
@@ -35,7 +44,6 @@ $(document).ready(function(){
 	$(".newsbox:eq(0) li").each(function(i){
 		var dis=48+27*i;
 		$(this).mouseenter(function(){
-			
 			$("#slide").stop(false,false).fadeIn().animate({top:dis+"px"},200);
 		})
 	})
@@ -64,12 +72,4 @@ $(document).ready(function(){
 			};
 		})
 	});
-	$(".newsbox").each(function(i){
-			var locate="news"+i+".html";
-			$(this).load(locate, null,function(){
-				$(this).find("li").each(function(){
-				$(this).attr({"title": $(this).find("span:nth-last-child(2)").text()})
-			})
-		});
-	})
 })
