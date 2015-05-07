@@ -72,7 +72,7 @@ function setTitle1(){
 	}
 	//设置大标题
 	$("#titleTop span").text(menuList1[window.flag-1][0]);
-	$("#title span:eq(0)").html("<a href=../index.htm>首页 -</a>");
+	$("#title span:eq(0)").html("<a href=../index.html>首页 -</a>");
 	$("#title span:eq(1)").html("<a href='../menu/section.html#"+window.flag+"'>"+menuList1[window.flag-1][0]+"</a>");//设置目录条
 	if (location.hash.substr(1)>10) {
 		$("#title span:eq(2)").text("- "+menuList1[window.flag-1][location.hash.slice(2,3)]);
