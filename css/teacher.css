@@ -11,7 +11,7 @@
 .shortList{margin:10px 20px;color:#222;font-size:13px;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;}
 .shortList ol{text-indent:10px;}
 .shortList ol ol{margin-left:20px;}
-.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:13px;line-height:24px;}
+.longList{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:13px;line-height:24px;margin-left:20px;}
 .longList .normal{color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:15px;line-height:24px;}
 #quickLink{position: absolute;left: 755px;top: 160px;width: 95px;background-color: rgba(200,200,200,0.5);padding:20px 5px 20px 25px;font-size: 13px;}
 #quickLink ul{list-style: disc;text-indent: 10px;color: #999;}
