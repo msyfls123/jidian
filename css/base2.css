@@ -16,7 +16,7 @@ input::-webkit-search-decoration,input::-webkit-search-cancel-button{display:non
 #top img{margin-bottom: 5px;}
 /*导航栏*/
 #guide{width:960px;height:48px;background-color:#f3f3f3;box-shadow:0 2px 10px 1px #ddd;margin-top:12px;position:relative}
-#guide li{width:95px;height:31px;display:inline-block;text-align:center;padding:14px 0 0 0;font-size:16px;color:#353c44;letter-spacing:-1px;font-weight:500}
+#guide li{width:95px;height:31px;display:inline-block;float:left;text-align:center;padding:14px 0 0 0;font-size:16px;color:#353c44;letter-spacing:-1px;font-weight:500}
 #guide li.pick{color:#fda900}
 #fly{width:95px;height:3px;background-color:#f8c255;position:absolute;border-radius: 3px 3px 0 0;}
 #dropdown{position:absolute;z-index:1000}
