@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"list",
+				"list03"
+			],
+			[
+				"re",
+				"remindText"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"get",
+				"getHomeDirectory"
+			],
+			[
+				"fo",
+				"foundContacts"
+			],
+			[
+				"fd",
+				"foundContacts"
+			],
+			[
+				"fin",
+				"findContacts"
+			],
+			[
+				"cont",
+				"contact"
+			],
+			[
+				"con",
+				"contactObj"
+			],
+			[
+				"load",
+				"loadContacts"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"save",
+				"saveContacts"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"ban",
+				"banText"
+			],
+			[
+				"wid",
+				"window"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"tit",
+				"titleH"
+			],
+			[
+				"ti",
+				"titleH"
+			],
+			[
+				"scr",
+				"scroH"
+			],
+			[
+				"titl",
+				"title1"
+			],
+			[
+				"qui",
+				"quickLink"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"d",
+				"decimal"
+			],
+			[
+				"pl",
+				"plainList"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"ge",
+				"getText"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"menu",
+				"menuList1"
+			],
+			[
+				"men",
+				"menuList1"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"cl",
+				"clickFlag"
+			],
+			[
+				"nu",
+				"null"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sl",
+				"slideDown"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"me",
+				"menu1"
+			],
+			[
+				"h",
+				"line-height"
+			],
+			[
+				"cli",
+				"clickFlag"
+			],
+			[
+				"click",
+				"click"
+			],
+			[
+				"ck",
+				"clickFlag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"sc",
+				"scrollEvent1"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"stamp",
+				"mStamp"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bod",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgrou",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/Desktop/dzdx/include/head_index.html",
+			"settings":
+			{
+				"buffer_size": 5278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Desktop/dzdx/T_系统首页模板.htm",
+			"settings":
+			{
+				"buffer_size": 6106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Desktop/dzdx/css/master.css",
+			"settings":
+			{
+				"buffer_size": 9024,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Desktop/dzdx/include/head.html",
+			"settings":
+			{
+				"buffer_size": 3211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Desktop/dzdx/hyyy/seec.asp",
+			"settings":
+			{
+				"buffer_size": 42521,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"SublimeServer: Manage SublimeServer Settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Desktop/dzdx/hyyy.html",
+		"/E/Desktop/dzdx/hyyy/jldate.js",
+		"/E/Desktop/dzdx/hyyy/mm_menu.js",
+		"/E/Desktop/dzdx/Template/Content/T_教师履历.html",
+		"/E/Desktop/dzdx/css/section.css",
+		"/E/Desktop/dzdx/Template/T_新闻栏目.html",
+		"/E/Desktop/dzdx/Template/Content/T_通知.html",
+		"/E/Desktop/dzdx/Template/Content/T_系统内容模板.html",
+		"/E/Desktop/dzdx/Template/T_系统栏目模板.html",
+		"/E/Desktop/dzdx/Template/T_二级栏目.html",
+		"/E/Desktop/dzdx/css/master.css",
+		"/E/Desktop/dzdx/hyyy/index.asp",
+		"/E/Desktop/dzdx/css/article.css",
+		"/E/Desktop/msyfls123.github.com/index.html",
+		"/E/Desktop/jj/menu/article1.html",
+		"/E/Desktop/dzdx/contents/57/27.html",
+		"/E/Desktop/msyfls123.github.com/msy.sublime-workspace",
+		"/E/Desktop/msyfls123.github.com/msy.sublime-project",
+		"/E/Desktop/dzdx/include/foot.html",
+		"/E/Desktop/dzdx/Template/T_搜索.html",
+		"/E/Desktop/dzdx/Template/T_评论.html",
+		"/E/Desktop/msyfls123.github.com/js/article.js",
+		"/E/Desktop/msyfls123.github.com/article/article22_1.html",
+		"/E/Desktop/dzdx/include/head.html",
+		"/E/Desktop/dzdx/channels/13.html",
+		"/E/Desktop/dzdx/channels/15.html",
+		"/E/Desktop/dzdx/channels/16.html",
+		"/E/Desktop/dzdx/channels/14.html",
+		"/E/Desktop/dzdx/Untitled-2.html",
+		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_all.js",
+		"/E/Desktop/dzdx/channels/18.html",
+		"/E/Desktop/dzdx/Template/T_师资队伍三级.html",
+		"/E/Desktop/dzdx/channels/4.html",
+		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_all_min.js",
+		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_config.js",
+		"/E/Desktop/dzdx/SiteServer/Inc/script.js",
+		"/E/Desktop/dzdx/channels/12.html",
+		"/E/Desktop/dzdx/contents/36/25.html",
+		"/F/learnyounode/program.js",
+		"/E/Desktop/dzdx/index.htm",
+		"/E/Desktop/msyfls123.github.com/article/article21_1.html",
+		"/E/Desktop/dzdx/include/left.html",
+		"/E/Desktop/dzdx/include/top.html",
+		"/E/Desktop/dzdx/include/head_index.html",
+		"/E/Desktop/msyfls123.github.com/css/teacher.css",
+		"/E/Desktop/msyfls123.github.com/article/article22_2.html",
+		"/E/angular-phonecat/app/index.html",
+		"/E/angular-phonecat/app/js/controllers.js",
+		"/E/angular-phonecat/test/unit/controllersSpec.js",
+		"/E/angular-phonecat/package.json",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/SublimeServer/markdown.js",
+		"/E/Desktop/Angular/angular.htm",
+		"/E/Desktop/Angular/angular2.htm",
+		"/E/Desktop/Angular/angular4.htm",
+		"/C/Users/Kimi/AppData/Local/Google/Chrome/User Data/Default/Extensions/nfibbjnhkbjlgjaojglmmibdjicidini/0.5_0/fancy-settings/source/custom.css",
+		"/E/Desktop/Angular/angular3.htm",
+		"/C/Users/Kimi/Downloads/只有7页的LaTeX入门教程",
+		"/I/1.bat",
+		"/E/Desktop/msyfls123.github.com/css/base2.css",
+		"/E/Desktop/msyfls123.github.com/css/index.css",
+		"/C/Users/Kimi/Downloads/《24小时学通qt编程》 .zip",
+		"/D/node/node-global/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js",
+		"/E/angular-phonecat/bower.json",
+		"/E/angular-phonecat/scripts/private/old/ScrapeData.js",
+		"/E/angular-phonecat/.bowerrc",
+		"/E/angular-phonecat/app/bower_components/jquery/dist/jquery.js",
+		"/E/angular-phonecat/app/bower_components/angular/angular.js",
+		"/E/Desktop/angular.htm",
+		"/E/Desktop/angular3.htm",
+		"/E/Desktop/angular4.htm",
+		"/E/Desktop/angular2.htm",
+		"/E/Desktop/angular.js",
+		"/E/address_book/parrot.js",
+		"/E/address_book/test.js",
+		"/E/address_book/contact.js",
+		"/E/address_book/util.js",
+		"/E/address_book/command.js",
+		"/E/address_book/index.js",
+		"/E/address_book/package.json",
+		"/E/Desktop/runDjango.bat",
+		"/E/Desktop/1.bat",
+		"/C/Users/Kimi/Desktop/example.htm",
+		"/E/address_book/simple_read.js",
+		"/E/address_book/data.json",
+		"/C/Users/Kimi/data.json",
+		"/C/Users/Kimi/Desktop/runDjango.bat",
+		"/C/Python27/Scripts/Helloworld/Helloworld/view.py",
+		"/C/Python27/Scripts/Helloworld/Helloworld/urls.py",
+		"/E/address_book/.talentbuddy/task-8.js",
+		"/E/address_book/small_read.js",
+		"/C/Users/Kimi/Desktop/hh/1.bat",
+		"/C/Users/Kimi/Desktop/1.bat",
+		"/E/address_book/text.js",
+		"/D/node/node-global/node_modules/angularjs/index.js",
+		"/C/Users/Kimi/Desktop/clip/prime.py",
+		"/C/Users/Kimi/Desktop/批处理教程电子书.chw",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/index.html",
+		"/C/Python27/Scripts/Helloworld/view.py",
+		"/C/Python27/Scripts/Helloworld/Helloworld/urls.pyc",
+		"/C/Users/Kimi/Desktop/123.png",
+		"/C/Users/Kimi/Desktop/document.log",
+		"/C/Users/Kimi/Desktop/document.aux",
+		"/C/Users/Kimi/Desktop/CUGThesis_v0.11/make.bat",
+		"/C/Users/Kimi/Desktop/clean.bat",
+		"/C/Users/Kimi/Desktop/1.htm",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/css/index.css",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/js/base.js",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/js/index.js",
+		"/C/Users/Kimi/Desktop/bootstrap-3.3.4-dist/1.htm",
+		"/C/Users/Kimi/Desktop/import Image.py",
+		"/C/Users/Kimi/Desktop/import Image。py",
+		"/C/Users/Kimi/Desktop/jiaoshi/article/陈振兴简历.html",
+		"/C/Users/Kimi/Desktop/jiaoshi/article/院长简历.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/article1.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news7.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news2.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news6.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news5.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news4.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news3.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news1.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/news0.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/css/teacher.css",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/article/article21_1.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/ch31.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/ch32.html",
+		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/section.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"prev",
+			"title1",
+			"title2",
+			"title3",
+			"title",
+			"backTop",
+			"backtop",
+			"&nbsp&nbsp&nbsp&nbsp",
+			"entertag",
+			"strip_tags",
+			"entertag",
+			"title3",
+			"title2",
+			"title1",
+			"script",
+			";}",
+			"<span>党建</span>",
+			"			",
+			"<li style=\"margin-top:5px;\">",
+			"style=\"color:#222;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;font-size:10px;line-height:19px;\"",
+			"style=\"margin:10px 20px;color:#222;font-size:15px;display:inline-block;border-left:1px dashed #48A0DB;padding-left:20px;\"",
+			"style=\"color:#222;font-size:15px;margin-top:3px;\"",
+			"style=\"color:#666;margin:15px 20px 0;width:340px;border-left:3px solid #fad900;border-bottom:1px solid #fad900;font-size:14px;padding-left:5px;\"",
+			"style=\"color:#999;margin:15px 20px 0;width:340px;\"",
+			"<td style=\"border:none;width:100px;text-align:left\">",
+			"<td style=\"border:none;width:100px;text-align:left;color:#999\">",
+			"style=\"color:#222;margin-top:40px;width:340px;font-size:18px;font-weight:bold\"",
+			"span",
+			"td",
+			"li",
+			"实验室",
+			"研究生",
+			"工业设计",
+			"7",
+			"工业设计",
+			"机械设计及其自动化",
+			"机械制造及其自动化",
+			"电子信息工程",
+			"学校简介",
+			"60px",
+			"../",
+			"title",
+			"main",
+			"font",
+			"font family",
+			"1000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"title4",
+			"title5",
+			"title6",
+			"&nbsp&nbsp",
+			"dtitle3",
+			"dtitle2",
+			"dtitle1",
+			"",
+			"<li>",
+			"class=\"longList\"",
+			"class=\"shortList\"",
+			"class=\"plainText\"",
+			"class=\"title3\"",
+			"class=\"title2\"",
+			"<td>",
+			"class=\"title1\"",
+			"td",
+			"tr",
+			"td",
+			"党建",
+			"实验室",
+			"学院新闻",
+			"通信工程",
+			"工业设计",
+			"机械设计及其自动化",
+			"机械制造及其自动化",
+			"电子信息工程",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/Desktop/dzdx/include/head_index.html",
+					"settings":
+					{
+						"buffer_size": 5278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4978,
+								4978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Desktop/dzdx/T_系统首页模板.htm",
+					"settings":
+					{
+						"buffer_size": 6106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3468,
+								3468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/Desktop/dzdx/css/master.css",
+					"settings":
+					{
+						"buffer_size": 9024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4606,
+								4606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1755.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/Desktop/dzdx/include/head.html",
+					"settings":
+					{
+						"buffer_size": 3211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/Desktop/dzdx/hyyy/seec.asp",
+					"settings":
+					{
+						"buffer_size": 42521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ASP/HTML-ASP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 153.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}
