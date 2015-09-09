@@ -10,9 +10,10 @@ body{background: url(../img/bg3.jpg) 50% 300px no-repeat;}
 #title{position: absolute;left: 180px;top: 10px;padding: 5px;z-index: 10;color: #888;}
 #title span:first-child:hover,#title span:nth-child(2):hover{color: #FDA900;}
 #table{position: relative;margin:0 0 0 180px;padding:25px;width: 700px;background: #fff;box-shadow: 0 0px 5px 2px #ddd;}
-.menu1>li{width: 300px;height: 230px;background: #cfcfcf;display: inline-block;margin: 10px 0 30px 40px;color: #232;}
+.menu1>li{width: 300px;height: 230px;display: inline-block;margin: 10px 0 30px 40px;color: #232;}
 .menu1>li:hover{cursor: pointer;}
-.menu1>li>div{width: 300px;height: 200px;background: #eee;}
+.menu1>li>div{overflow: hidden; display: block; position: relative; width: 300px; height: 200px;border-radius: 10px;}
+.menu1>li>div>img{position: relative; width: 300px; height: 200px; top: 0px; left: 0px;}
 .menu1>li>p{font-size: 15px;text-indent: 16px;margin-top: 5px;}
 .pagination{position: absolute;top: 400px;left: 300px;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
 #Searchresult {margin:20px;}

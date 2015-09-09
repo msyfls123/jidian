@@ -4,8 +4,56 @@
 		"selected_items":
 		[
 			[
+				"img",
+				"imgNode"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
 				"font",
-				"font-size"
+				"font-family"
+			],
+			[
+				"ca",
+				"carousel-inner"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"list",
+				"list2"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"page",
+				"page_loop"
+			],
+			[
+				"url",
+				"urllib2"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"bor",
+				"border"
 			],
 			[
 				"pading",
@@ -20,14 +68,6 @@
 				"middle"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"list",
-				"list03"
-			],
-			[
 				"re",
 				"remindText"
 			],
@@ -38,10 +78,6 @@
 			[
 				"s",
 				"script	Tag"
-			],
-			[
-				"get",
-				"getHomeDirectory"
 			],
 			[
 				"fo",
@@ -74,14 +110,6 @@
 			[
 				"save",
 				"saveContacts"
-			],
-			[
-				"padding",
-				"padding-left"
-			],
-			[
-				"tex",
-				"text-indent"
 			],
 			[
 				"ban",
@@ -148,10 +176,6 @@
 				"cursor"
 			],
 			[
-				"bor",
-				"border-top"
-			],
-			[
 				"menu",
 				"menuList1"
 			],
@@ -210,10 +234,6 @@
 			[
 				"bac",
 				"background"
-			],
-			[
-				"border",
-				"border"
 			],
 			[
 				"sc",
@@ -283,56 +303,36 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/E/Desktop/dzdx/include/head_index.html",
-			"settings":
-			{
-				"buffer_size": 5278,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Desktop/dzdx/T_系统首页模板.htm",
-			"settings":
-			{
-				"buffer_size": 6106,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Desktop/dzdx/css/master.css",
-			"settings":
-			{
-				"buffer_size": 9024,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Desktop/dzdx/include/head.html",
-			"settings":
-			{
-				"buffer_size": 3211,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Desktop/dzdx/hyyy/seec.asp",
-			"settings":
-			{
-				"buffer_size": 42521,
-				"line_ending": "Windows"
-			}
-		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
 			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
 				"",
-				"SublimeServer: Manage SublimeServer Settings"
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"Package Control: ",
@@ -343,7 +343,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -360,134 +360,134 @@
 	},
 	"file_history":
 	[
-		"/E/Desktop/dzdx/hyyy.html",
-		"/E/Desktop/dzdx/hyyy/jldate.js",
-		"/E/Desktop/dzdx/hyyy/mm_menu.js",
-		"/E/Desktop/dzdx/Template/Content/T_教师履历.html",
-		"/E/Desktop/dzdx/css/section.css",
-		"/E/Desktop/dzdx/Template/T_新闻栏目.html",
-		"/E/Desktop/dzdx/Template/Content/T_通知.html",
-		"/E/Desktop/dzdx/Template/Content/T_系统内容模板.html",
-		"/E/Desktop/dzdx/Template/T_系统栏目模板.html",
-		"/E/Desktop/dzdx/Template/T_二级栏目.html",
-		"/E/Desktop/dzdx/css/master.css",
-		"/E/Desktop/dzdx/hyyy/index.asp",
-		"/E/Desktop/dzdx/css/article.css",
-		"/E/Desktop/msyfls123.github.com/index.html",
-		"/E/Desktop/jj/menu/article1.html",
-		"/E/Desktop/dzdx/contents/57/27.html",
-		"/E/Desktop/msyfls123.github.com/msy.sublime-workspace",
-		"/E/Desktop/msyfls123.github.com/msy.sublime-project",
-		"/E/Desktop/dzdx/include/foot.html",
-		"/E/Desktop/dzdx/Template/T_搜索.html",
-		"/E/Desktop/dzdx/Template/T_评论.html",
-		"/E/Desktop/msyfls123.github.com/js/article.js",
-		"/E/Desktop/msyfls123.github.com/article/article22_1.html",
-		"/E/Desktop/dzdx/include/head.html",
-		"/E/Desktop/dzdx/channels/13.html",
-		"/E/Desktop/dzdx/channels/15.html",
-		"/E/Desktop/dzdx/channels/16.html",
-		"/E/Desktop/dzdx/channels/14.html",
-		"/E/Desktop/dzdx/Untitled-2.html",
-		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_all.js",
-		"/E/Desktop/dzdx/channels/18.html",
-		"/E/Desktop/dzdx/Template/T_师资队伍三级.html",
-		"/E/Desktop/dzdx/channels/4.html",
-		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_all_min.js",
-		"/E/Desktop/dzdx/SiteFiles/bairong/TextEditor/ueditor/editor_config.js",
-		"/E/Desktop/dzdx/SiteServer/Inc/script.js",
-		"/E/Desktop/dzdx/channels/12.html",
-		"/E/Desktop/dzdx/contents/36/25.html",
-		"/F/learnyounode/program.js",
-		"/E/Desktop/dzdx/index.htm",
-		"/E/Desktop/msyfls123.github.com/article/article21_1.html",
-		"/E/Desktop/dzdx/include/left.html",
-		"/E/Desktop/dzdx/include/top.html",
-		"/E/Desktop/dzdx/include/head_index.html",
-		"/E/Desktop/msyfls123.github.com/css/teacher.css",
-		"/E/Desktop/msyfls123.github.com/article/article22_2.html",
-		"/E/angular-phonecat/app/index.html",
-		"/E/angular-phonecat/app/js/controllers.js",
-		"/E/angular-phonecat/test/unit/controllersSpec.js",
-		"/E/angular-phonecat/package.json",
-		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
-		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/SublimeServer/markdown.js",
-		"/E/Desktop/Angular/angular.htm",
-		"/E/Desktop/Angular/angular2.htm",
-		"/E/Desktop/Angular/angular4.htm",
-		"/C/Users/Kimi/AppData/Local/Google/Chrome/User Data/Default/Extensions/nfibbjnhkbjlgjaojglmmibdjicidini/0.5_0/fancy-settings/source/custom.css",
-		"/E/Desktop/Angular/angular3.htm",
-		"/C/Users/Kimi/Downloads/只有7页的LaTeX入门教程",
-		"/I/1.bat",
-		"/E/Desktop/msyfls123.github.com/css/base2.css",
-		"/E/Desktop/msyfls123.github.com/css/index.css",
-		"/C/Users/Kimi/Downloads/《24小时学通qt编程》 .zip",
+		"/C/Python34/Scripts/mySite/mySite/view.py",
+		"/C/Python34/Scripts/mySite/mySite/urls.py",
+		"/E/0-资料/！！！程式语言/LaTeX/useChineseFont.tex",
+		"/E/Desktop/桌面书/runDjango.bat",
+		"/D/Python27/Scripts/django-admin.exe",
+		"/D/Python27/Scripts/django-admin.pyc",
+		"/D/Python27/Scripts/django-admin.py",
+		"/F/!/绿真净化器/绿真众筹网页效果.html",
+		"/E/Desktop/123.py",
+		"/E/Desktop/clip/prime.py",
+		"/E/Desktop/123/vaan的相册-艺   设/index.html",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Desktop/简洁封面/1.html",
+		"/F/网页资料/dzdx/channels/5.html",
+		"/E/Desktop/1.html",
+		"/C/Users/Kimi/AppData/Local/Temp/7zE4036E286/font-awesome.css.map",
+		"/C/Users/Kimi/AppData/Local/Temp/7zE4038CF72/font-awesome.css",
+		"/F/绿真净化器/绿真众筹网页效果.html",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/Context.sublime-menu",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/Main.sublime-menu",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/echo.py",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/delete_word.py",
+		"/D/Program Files/Sublime Text 2/PackageSetup.py",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Settings/Session.sublime_session",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Pristine Packages/C++.sublime-package",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/C++/C++.sublime-settings",
+		"/E/0-资料/！！！程式语言/C++/cpp/1.cpp",
+		"/E/Desktop/1.cpp",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Default/exec.py",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/E/0-资料/！！！程式语言/C++/cpp/Text1.c",
+		"/E/1-项目/七彩马/FAQ/js/faq.js",
+		"/F/绿真净化器/lvzhen/绿真众筹网页效果.html",
+		"/F/绿真净化器/1.html",
+		"/D/Program Files/ImageTriangulation5/TriangulateImage5.bat",
+		"/E/Desktop/TriangulateImage5.bat - 快捷方式.lnk",
+		"/E/3-作业/老蔡肖畅---作业/事理学/document.tex",
+		"/E/Desktop/1.tex",
+		"/E/Desktop/useChinese.tex",
+		"/E/Desktop/使用中文字体.tex",
+		"/C/Program Files (x86)/Avira/Launcher/Avira.OE.MiniGui.dll",
+		"/E/Desktop/Exp/img.py",
+		"/E/Desktop/Exp/meizi.py",
+		"/E/Desktop/Exp/baozou.py",
+		"/E/Desktop/Exp/ali.py",
+		"/E/Desktop/干衣机/Exp/1.py",
+		"/E/Desktop/1.pdf",
+		"/E/Desktop/myWiki/data/index.md",
+		"/E/Desktop/myWiki/data/Tips.md",
+		"/D/node/nodejs/node_modules/douban.fm/index.js",
+		"/D/node/nodejs/node_modules/douban.fm/libs/commands.js",
+		"/E/Desktop/douban.fm-master/setup.py",
+		"/D/node/nodejs/node_modules/douban.fm/libs/fm.js",
+		"/D/node/nodejs/node_modules/douban.fm/node_modules/player/index.js",
 		"/D/node/node-global/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js",
-		"/E/angular-phonecat/bower.json",
-		"/E/angular-phonecat/scripts/private/old/ScrapeData.js",
-		"/E/angular-phonecat/.bowerrc",
-		"/E/angular-phonecat/app/bower_components/jquery/dist/jquery.js",
-		"/E/angular-phonecat/app/bower_components/angular/angular.js",
-		"/E/Desktop/angular.htm",
-		"/E/Desktop/angular3.htm",
-		"/E/Desktop/angular4.htm",
-		"/E/Desktop/angular2.htm",
-		"/E/Desktop/angular.js",
-		"/E/address_book/parrot.js",
-		"/E/address_book/test.js",
-		"/E/address_book/contact.js",
-		"/E/address_book/util.js",
-		"/E/address_book/command.js",
-		"/E/address_book/index.js",
-		"/E/address_book/package.json",
-		"/E/Desktop/runDjango.bat",
-		"/E/Desktop/1.bat",
-		"/C/Users/Kimi/Desktop/example.htm",
-		"/E/address_book/simple_read.js",
-		"/E/address_book/data.json",
-		"/C/Users/Kimi/data.json",
-		"/C/Users/Kimi/Desktop/runDjango.bat",
-		"/C/Python27/Scripts/Helloworld/Helloworld/view.py",
-		"/C/Python27/Scripts/Helloworld/Helloworld/urls.py",
-		"/E/address_book/.talentbuddy/task-8.js",
-		"/E/address_book/small_read.js",
-		"/C/Users/Kimi/Desktop/hh/1.bat",
-		"/C/Users/Kimi/Desktop/1.bat",
-		"/E/address_book/text.js",
-		"/D/node/node-global/node_modules/angularjs/index.js",
-		"/C/Users/Kimi/Desktop/clip/prime.py",
-		"/C/Users/Kimi/Desktop/批处理教程电子书.chw",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/index.html",
-		"/C/Python27/Scripts/Helloworld/view.py",
-		"/C/Python27/Scripts/Helloworld/Helloworld/urls.pyc",
-		"/C/Users/Kimi/Desktop/123.png",
-		"/C/Users/Kimi/Desktop/document.log",
-		"/C/Users/Kimi/Desktop/document.aux",
-		"/C/Users/Kimi/Desktop/CUGThesis_v0.11/make.bat",
-		"/C/Users/Kimi/Desktop/clean.bat",
-		"/C/Users/Kimi/Desktop/1.htm",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/css/index.css",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/js/base.js",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/js/index.js",
-		"/C/Users/Kimi/Desktop/bootstrap-3.3.4-dist/1.htm",
-		"/C/Users/Kimi/Desktop/import Image.py",
-		"/C/Users/Kimi/Desktop/import Image。py",
-		"/C/Users/Kimi/Desktop/jiaoshi/article/陈振兴简历.html",
-		"/C/Users/Kimi/Desktop/jiaoshi/article/院长简历.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/article1.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news7.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news2.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news6.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news5.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news4.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news3.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news1.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/news0.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/css/teacher.css",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/article/article21_1.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/ch31.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/ch32.html",
-		"/C/Users/Kimi/Desktop/msyfls123.github.com/menu/section.html"
+		"/E/Desktop/font_zh.txt",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/ChineseLocalization/Localization.py",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/ChineseLocalization/Localization.sublime-settings",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/ChineseLocalization/Localization.pyc",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/ChineseLocalization/README.md",
+		"/E/3-作业/理论向/计算机辅助人机工程/rep.tex",
+		"/F/网页资料/dzdx/SiteFiles/bairong/TextEditor/ckeditor/plugins/uicolor/yui/assets/yui.css",
+		"/E/Desktop/test.tex",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/README.markdown",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/Kimi/Documents/动画/动画.html",
+		"/E/Desktop/Demo/首页/1.html",
+		"/I/Demo/首页/2.html",
+		"/I/实习/我的动态模糊特效/js/jquery.svg.min.js",
+		"/I/实习/我的动态模糊特效/js/menu.js",
+		"/I/实习/我的动态模糊特效/css/menu.css",
+		"/E/Desktop/干衣机/Exp/ali.py",
+		"/E/Desktop/干衣机/Exp/baozou.py",
+		"/E/Desktop/干衣机/Exp/meizi.py",
+		"/C/Users/Kimi/AppData/Local/Temp/7zO83CD545C/onepage-scroll.css",
+		"/E/Desktop/myWiki/data/tips.md",
+		"/E/Desktop/chapter20_0003.xhtml",
+		"/C/Users/Kimi/AppData/Roaming/Adobe/Adobe Illustrator CS6 Settings/zh_CN/x86/AIPrefs",
+		"/E/Desktop/test.js",
+		"/C/Users/Kimi/AppData/Roaming/Adobe/Adobe Illustrator CS5 Settings/zh_CN/AIPrefs",
+		"/C/Users/Kimi/AppData/Local/Temp/7zE4E76D363/CollectLinkImage&Fonts.jsx",
+		"/E/Desktop/data2.csv",
+		"/E/Desktop/clip/get_weather.py",
+		"/E/Desktop/dryer.py",
+		"/E/Desktop/myWiki/data/Spider.md",
+		"/E/Desktop/myWiki/data/TodoList.md",
+		"/E/Desktop/data.csv",
+		"/E/Desktop/taobao.py",
+		"/E/Desktop/阿里巴巴找风干机.txt",
+		"/E/Desktop/Exp/jd.py",
+		"/E/Desktop/ali.py",
+		"/E/Desktop/clip/wunder-data.txt",
+		"/E/Desktop/Exp/1.py",
+		"/E/Desktop/1.txt",
+		"/E/Desktop/jd.py",
+		"/E/Desktop/NG.py",
+		"/E/Desktop/1.py",
+		"/E/Desktop/baozou.py",
+		"/E/Desktop/meizi.py",
+		"/C/Python27/Lib/site-packages/sitecustomize.py",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/F/网页资料/dzdx/T_系统首页模板.htm",
+		"/F/网页资料/dzdx/css/section.css",
+		"/E/Desktop/dzdx/css/master.css",
+		"/E/Desktop/dzdx/include/foot.html",
+		"/E/Desktop/dzdx/index.htm",
+		"/E/Desktop/dzdx/T_系统首页模板.htm",
+		"/E/Desktop/会议预约",
+		"/E/0-资料/！！！程式语言/LaTeX/CUGThesis_v0.11/chapters/figure.tex",
+		"/E/Desktop/dzdx/Template/Content/T_教师履历.html",
+		"/E/workspace/C++T/src/C++T.cpp",
+		"/C/Users/Kimi/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/E/Desktop/myWiki/index.html",
+		"/E/Desktop/dmscode-Wiki-in-box-3bb9133/data/index.md",
+		"/E/Desktop/dmscode-Wiki-in-box-3bb9133/index.html",
+		"/E/Desktop/dmscode-Wiki-in-box-3bb9133/data/First.md",
+		"/E/Desktop/啊啊啊/css/123.css",
+		"/E/Desktop/啊啊啊/index.html",
+		"/E/Desktop/123.css",
+		"/E/Desktop/123.html",
+		"/E/Desktop/dzdx/Template/T_二级栏目.html",
+		"/E/Desktop/dzdx/css/section.css",
+		"/E/Desktop/jiaoshiTemplate",
+		"/E/Desktop/鼠标移动到图片上图片等比例放大效果/index.html",
+		"/E/Desktop/dzdx/include/head_index.html",
+		"/E/Desktop/dzdx/include/head.html"
 	],
 	"find":
 	{
@@ -505,6 +505,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"write",
+			"title1",
+			"title2",
+			"title3",
 			"prev",
 			"title1",
 			"title2",
@@ -561,6 +565,9 @@
 			"title4",
 			"title5",
 			"title6",
+			"title4",
+			"title5",
+			"title6",
 			"&nbsp&nbsp",
 			"dtitle3",
 			"dtitle2",
@@ -598,142 +605,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/E/Desktop/dzdx/include/head_index.html",
-					"settings":
-					{
-						"buffer_size": 5278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4978,
-								4978
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/Desktop/dzdx/T_系统首页模板.htm",
-					"settings":
-					{
-						"buffer_size": 6106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3468,
-								3468
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1215.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/E/Desktop/dzdx/css/master.css",
-					"settings":
-					{
-						"buffer_size": 9024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4606,
-								4606
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1755.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/E/Desktop/dzdx/include/head.html",
-					"settings":
-					{
-						"buffer_size": 3211,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/Desktop/dzdx/hyyy/seec.asp",
-					"settings":
-					{
-						"buffer_size": 42521,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ASP/HTML-ASP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -770,7 +641,11 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 153.0
+		"height": 133.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
 	},
 	"replace":
 	{
@@ -782,6 +657,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"py",
+				"dzdx/SiteFiles/bairong/TextEditor/ckeditor/plugins/uicolor/yui/assets/yui.css"
+			]
 		],
 		"width": 0.0
 	},
@@ -798,5 +677,5 @@
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": false
+	"status_bar_visible": true
 }

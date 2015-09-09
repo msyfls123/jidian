@@ -54,7 +54,7 @@ function displayIndex(){    //显示左侧目录
 function displayPic(){       //显示图片
 	$(".menu1").empty();
 	for (var i = 1; i <= menuList1[window.flag-1].length-1; i++) {
-		$(".menu1").append("<li><div><img src='../img/b"+location.hash.slice(1,2)+i+".jpg'></div><p>"+menuList1[window.flag-1][i]+"</p></li>")
+		$(".menu1").append("<li><div><img src='../img/bk/p"+location.hash.slice(1,2)+" ("+i+").jpg'></div><p>"+menuList1[window.flag-1][i]+"</p></li>")
 	};
 	$(".menu1 li").each(function(i){  //点图片进二级菜单
 			$(this).click(function(){
