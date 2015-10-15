@@ -1,0 +1,50 @@
+/*新闻栏*/
+#info{position:relative;margin:20px auto;width:100%;height:300px;background:#264A63;overflow: hidden;}
+#ban{width:600px;height:300px;background:#fff;overflow:hidden;position:relative;display:inline-block;z-index:10;margin:0}
+#img{width:3000px;height:300px;position:absolute;left:0}
+#img div:nth-child(1){display: inline-block;width: 600px;height: 300px;background: url(../img/s1.jpg);margin-right: -1px;}
+#img div:nth-child(2){display: inline-block;width: 600px;height: 300px;background: url(../img/s2.jpg);margin:0 -2px;}
+#img div:nth-child(3){display: inline-block;width: 600px;height: 300px;background: url(../img/s3.jpg);margin:0 -2px;}
+#img div:nth-child(4){display: inline-block;width: 600px;height: 300px;background: url(../img/s4.jpg);margin:0 -2px;}
+#img div:nth-child(5){display: inline-block;width: 600px;height: 300px;background: url(../img/s5.jpg);margin:0 -2px;}
+#banText{position: absolute;top: 10px;left: 0px;}
+#banText ul{background: #14344A;padding:0 15px;}
+#banText ul li{display: none;color: #fff;}
+#banText ul li.onPlay{display: inline-block;}
+#ban>ul{position:absolute;top:270px;left:50%;width:140px;margin-left:-70px;text-align:center}
+#ban>ul>li{display:inline-block;width:7px;height:7px;border-radius:50%;border:1px solid #fff;margin:1px;-webkit-transition:all .5s;-moz-transition:all .5s;transition:all .5s}
+#ban>ul>li:hover{background-color:#fff;cursor:pointer}
+#ban>ul>li.cur{background-color:#fff;cursor:pointer}
+#news{display:inline-block;vertical-align:top;padding:15px 0 0 10px;margin:0;position:relative;color: #fff;font-size:15px;}
+#news h2{display:inline-block;margin:0 10px 0 8px;vertical-align: center;font-weight:500;}
+#news h2.now{color:#f6c35e;}
+#news h2:hover{cursor: pointer;}
+.newsbox{display:inline-block;position:relative;width:330px;top:10px;z-index:500;}
+.newsbox li{width:100%;height:18px;color:#fff;padding:6.5px 0 0 10px;font-size:11px;font-family:Microsoft Yahei;letter-spacing:1px;display:inline-block;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s}
+.newsbox li>span:nth-last-child(3){display: inline-block;padding-right: 5px;margin: 0 5px 0 0;line-height: 16px;text-align: center;color: #bbb;border-right:1px solid #888;}
+.newsbox li>span:nth-last-child(2){display: inline-block;width:230px;height:16px;line-height: 20px;overflow:hidden;text-overflow:ellipsis-word;}
+.newsbox li>span:last-child{text-align: right;font-family: Calibri;display: inline-block;float: right;margin: 1px 5px 0 0}
+.newsbox li:hover{color:#f6c35e;cursor:pointer}
+#slide{width:356px;height:27px;background:#193d54;position:absolute;top:48px;left:-2px;border-left:2px solid #3dbdae;opacity:.8;z-index: 2;display: none;}
+.hidden{display: none;}
+/*主要内容*/
+.section{display: inline-block;position: relative;height: 200px;vertical-align: top;}
+.left{width: 290px;margin: 35px 10px 0 0;}
+.title{width: 100%;height: 25px;background-color: #f9f9f9;border-top: 3px solid #f8c255;}
+.title span{float: right;margin: 3px 15px 0 0;font-family: Courier;color: #999;font-weight: bold;font-size: 14px;}
+.title span:hover{color: #f6c35e;cursor: pointer;}
+.name{display:inline-block;height:35px;margin:0 0 0 6px;padding: 2px 3px 0 5px;background-color: #fff;font-size: 15px;text-align: center;font-weight: bold;color: #666;border-radius: 2px;z-index: 300;}
+.name:hover{cursor: pointer;}
+.left .name{width: 80px;}
+.left li{color: #222;height:18px;width: 290px;overflow:hidden;text-overflow:ellipsis;padding:6px 0 0 0;}
+.right li{color: #222;height:18px;width: 350px;overflow:hidden;text-overflow:ellipsis;padding:6px 0 0 0;}
+.left li>span:nth-last-child(2){width: 255px;}
+.right li>span:nth-last-child(2){width: 320px;}
+.left li>span:last-child,.right li>span:last-child{margin:3px 0 0 0;}
+.left div.newsbox{width: 220px;height: 100%}
+.contain{width:350px;height: 180px;position: absolute;overflow: hidden;}
+.tab{position: absolute;width: 1400px;}
+.right div.newsbox{width: 347px;height: 150px;vertical-align: top;}
+.test{width: 100%;height: 10px;background-color: #ddd;}
+.right{width:350px;margin: 35px 0 0 0}
+.unpick{background: none;box-shadow: none;border:none;font-size: 14px;}
