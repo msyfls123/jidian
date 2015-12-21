@@ -41,18 +41,18 @@ $(document).ready(function(){
 	var locationStr=location.toString();
 		if (!location.hash&&locationStr.indexOf('index')!=-1) {
 		for (var i = 0; i <= 8; i++) {
-			$("#guide>ul").append("<a href='menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
+			$("#guide>ul").append("<a href='/jidian/menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
 			for (var j = 1; j <= menuList1[i].length-1; j++) {
-				$(".menu:eq("+(i+1)+")>ul").append("<a href='menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
+				$(".menu:eq("+(i+1)+")>ul").append("<a href='/jidian/menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
 			};
 		};
 	}else{
 		for (var i = 0; i <= 8; i++) {
-			$("#guide>ul").append("<a href='../menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
+			$("#guide>ul").append("<a href='/jidian/menu/section.html#"+(i+1)+"'><li>"+menuList1[i][0]+"</li></a>");
 			$("#dropdown>ul").append("<li class='menu'><ul></ul></li>");
 			for (var j = 1; j <= menuList1[i].length-1; j++) {
-				$(".menu:eq("+(i+1)+")>ul").append("<a href='../menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
+				$(".menu:eq("+(i+1)+")>ul").append("<a href='/jidian/menu/section.html#"+(i+1)+j+"'><li>"+menuList1[i][j]+"</li></a>");
 			};
 		};
 	}
